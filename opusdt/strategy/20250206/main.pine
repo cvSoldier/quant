@@ -1,0 +1,48 @@
+//@version=6
+strategy("以为是均线结果莫名其妙变做空", overlay=true, initial_capital=1000)
+
+// ========== 1. 定义EMA指标 ==========
+ema20 = ta.ema(close, 9)
+ema60 = ta.ema(close, 20)
+ema120 = ta.ema(close, 200)
+
+// 绘制EMA
+plot(ema20, "EMA20", color=color.yellow)
+plot(ema60, "EMA60", color=color.green)
+plot(ema120, "EMA120", color=color.blue)
+
+// ========== 2. 动态ATR阈值 ==========
+atr_period = 14
+atr = ta.atr(atr_period)
+atr_ma_period = 20
+atr_ma = ta.sma(atr, atr_ma_period)
+atr_threshold = atr_ma * 1.2  // ATR动态阈值（1.2倍ATR均线）
+// plot(atr_threshold, "Dynamic ATR Threshold", color=color.red, linewidth=2)
+
+// ========== 3. 成交量过滤条件 ==========
+volume_ma_period = 9                     // 成交量均线周期
+volume_multiplier = 1.1                    // 成交量倍数阈值
+volume_ma = ta.sma(volume, volume_ma_period)
+volume_condition = volume > volume_ma * volume_multiplier  // 当前成交量超过均线1.5倍
+
+// 绘制成交量均线和阈值线（副图）
+// plot(volume_ma, "Volume MA", color=color.blue, display=display.none)
+// plot(volume_ma * volume_multiplier, "Volume Threshold", color=color.red, display=display.none)
+
+// ========== 4. 综合买入条件 ==========
+buy_condition = (ta.crossover(ema20, ema60) or ta.crossover(ema20, ema120) or ta.crossover(ema60, ema120)) and (ema20 > ema60 and ema60 > ema120)
+
+// ========== 5. 卖出条件 ==========
+profit_target = strategy.position_avg_price * 1.02  // 2%止盈
+stop_loss = strategy.position_avg_price * 0.98      // 1%止损
+sell_condition =  (close >= profit_target) or  (close <= stop_loss) or ((ta.crossover(ema20, ema60) or ta.crossover(ema20, ema120) or ta.crossover(ema60, ema120)) and not (ema20 > ema60 and ema60 > ema120))         // EMA排列破坏
+
+// ========== 6. 仓位管理 ==========
+available_funds = strategy.equity / close  // 全仓买入
+
+// ========== 7. 执行交易 ==========
+if buy_condition
+    strategy.entry("Buy", strategy.short, available_funds)
+
+if sell_condition
+    strategy.close("Buy")
