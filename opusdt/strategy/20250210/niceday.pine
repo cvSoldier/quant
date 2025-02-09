@@ -1,0 +1,53 @@
+//@version=5
+strategy("Nice Day Strategy", overlay=true)
+
+// 平滑移动平均线（SMMA）函数自定义
+smma(src, length) =>
+    var float smmaValue = na
+    smmaValue := na(smmaValue[1]) ? ta.sma(src, length) : (smmaValue[1] * (length - 1) + src) / length
+    smmaValue
+
+// 策略参数设置
+stratRes = "60"  // 1小时对应60分钟的时间周期
+basisLen = 3   // 平滑移动平均线的长度
+delayOffset = 0  // 数据延迟偏移
+
+// 获取当前时间的分钟数（不带时区）
+current_minute = minute(time)
+is_on_the_hour = current_minute == 0
+
+// 计算不同时间分辨率下的开盘和收盘的平滑移动平均线
+closeSeriesAlt = request.security(syminfo.tickerid, stratRes, smma(close[delayOffset], basisLen), lookahead=barmerge.lookahead_on)
+openSeriesAlt = request.security(syminfo.tickerid, stratRes, smma(open[delayOffset], basisLen), lookahead=barmerge.lookahead_on)
+
+// 绘制开盘和收盘线，颜色根据开盘和收盘的大小关系进行变化
+closeP = plot(closeSeriesAlt, title="收盘线", color=closeSeriesAlt > openSeriesAlt ? color.green : color.red, linewidth=2)
+openP = plot(openSeriesAlt, title="开盘线", color=closeSeriesAlt > openSeriesAlt ? color.green : color.red, linewidth=2)
+fill(closeP, openP, color=closeSeriesAlt > openSeriesAlt ? color.new(color.green, 90) : color.new(color.red, 90))
+
+// 定义交易条件，通过开盘和收盘线的交叉来判断
+xlong = ta.crossover(closeSeriesAlt, openSeriesAlt)
+xshort = ta.crossunder(closeSeriesAlt, openSeriesAlt)
+longCond = xlong
+shortCond = xshort
+
+// 过滤信号：仅在整点时触发交易信号
+condition = is_on_the_hour
+
+// 执行交易操作，根据条件触发买卖
+if shortCond and condition
+    strategy.close("平多")
+if longCond and condition
+    strategy.close("平空")
+if longCond and condition
+    strategy.entry("开多", strategy.long)
+if shortCond and condition
+    strategy.entry("开空", strategy.short)
+
+// 显示交易文本提示，提供可视化的买卖信号
+plotshape(longCond and condition, title="", location=location.belowbar, color=color.green, style=shape.labelup, size=size.small, text="")
+plotshape(shortCond and condition, title="", location=location.abovebar, color=color.red, style=shape.labeldown, size=size.small, text="")
+
+// 创建预警条件，以便在符合交易条件时发出通知
+alertcondition(longCond and condition, title="看涨", message="看涨信号 - 开多")
+alertcondition(shortCond and condition, title="看跌", message="看跌信号 - 开空")
