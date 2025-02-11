@@ -1,0 +1,51 @@
+//@version=6
+strategy("micro pullback", overlay=true, process_orders_on_close=false, initial_capital=1000)
+
+// ========== 参数设置 ==========
+n = input.int(20, "周期长度", minval=2)          // 形态识别的K线数量
+p = input.float(5.0, "上涨百分比", minval=0.1)  // 上涨幅度阈值
+stop_percent = input.float(3.0, "止盈止损百分比", minval=0.1)  // 止盈止损比例
+
+// ========== 形态识别逻辑 ==========
+// 1. 计算n根前的收盘价
+close_n = close[n]
+
+// 2. 计算n根内的最高价
+highest_high = ta.highest(high, n)
+
+// 3. 条件1：最高价相比n根前收盘价上涨了p%
+cond_up = highest_high >= close_n * (1 + p / 100)
+
+// 4. 条件2：当前收盘价高于前一根收盘价（反弹信号）
+cond_reversal = close > close[1]
+
+// 5. 条件3：当前收盘价低于最高价（处于下跌阶段）
+cond_downtrend = close < highest_high
+
+// 6. 综合买入条件
+buy_condition = cond_up and cond_reversal and cond_downtrend
+
+// ========== 交易执行 ==========
+// 买入逻辑
+available_funds = strategy.equity / close  // 全仓买入
+if buy_condition
+    strategy.entry("Long", strategy.long, available_funds)
+    // 设置止盈止损（基于入场价）
+    strategy.exit("Exit", "Long", stop = strategy.position_avg_price * (1 - stop_percent / 100), limit = strategy.position_avg_price * (1 + stop_percent / 100))
+
+// ========== 可视化 ==========
+// 标记买入点
+plotshape(buy_condition, title="买入信号", location=location.belowbar, color=color.green, style=shape.triangleup, size=size.small)
+
+// 动态绘制止盈止损线
+var float entry_price = na
+var float profit_level = na
+var float loss_level = na
+
+if buy_condition
+    entry_price := close
+    profit_level := entry_price * (1 + stop_percent / 100)
+    loss_level := entry_price * (1 - stop_percent / 100)
+
+plot(profit_level, "止盈线", color=color.green, style=plot.style_linebr)
+plot(loss_level, "止损线", color=color.red, style=plot.style_linebr)
