@@ -1,0 +1,38 @@
+//@version=6
+strategy("MACD 策略 + 购买量", overlay=true, initial_capital=1000)
+
+// ========== 1. 定义MACD指标 ==========
+fast_length = 9      // 快速EMA周期
+slow_length = 20      // 慢速EMA周期
+signal_length = 9     // 信号线周期
+
+[macd_line, signal_line, hist] = ta.macd(close, fast_length, slow_length, signal_length)
+
+// 绘制MACD线、信号线和柱状图
+plot(macd_line, "MACD Line", color=color.blue)
+plot(signal_line, "Signal Line", color=color.red)
+hline(0, "Zero Line", color=color.black)
+plot(hist, "Histogram", style=plot.style_columns, color=hist >= 0 ? color.green : color.red)
+
+volume_ma_length = 200  // 成交量均线周期
+m = 3.0                // 开单阈值（相对成交量>m时开单）
+n = 0.8                // 关单阈值（相对成交量<n时关单）
+
+// ========== 2. 计算相对成交量y ==========
+volume_ma = ta.sma(volume, volume_ma_length)
+y = volume / volume_ma  // 相对成交量（当前成交量与均线的比值）
+
+// ========== 2. 定义买入和卖出条件 ==========
+buy_condition = hist > 0 and y > m
+
+sell_condition = ta.crossunder(macd_line, signal_line) and hist < 0                                  // MACD柱状图由正转负
+
+// ========== 6. 仓位管理 ==========
+available_funds = strategy.equity / close  // 全仓买入
+
+// ========== 7. 执行交易 ==========
+if buy_condition
+    strategy.entry("Buy", strategy.long, available_funds)
+
+if sell_condition
+    strategy.close("Buy")
