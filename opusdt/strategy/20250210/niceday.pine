@@ -1,4 +1,4 @@
-//@version=5
+//@version=6
 strategy("Nice Day Strategy", overlay=true)
 
 // 平滑移动平均线（SMMA）函数自定义
@@ -33,21 +33,22 @@ shortCond = xshort
 
 // 过滤信号：仅在整点时触发交易信号
 condition = is_on_the_hour
+available_funds = strategy.equity / close  // 全仓买入
 
 // 执行交易操作，根据条件触发买卖
 if shortCond and condition
-    strategy.close("平多")
+    strategy.close("开多")
 if longCond and condition
-    strategy.close("平空")
+    strategy.close("开空")
 if longCond and condition
-    strategy.entry("开多", strategy.long)
+    strategy.entry("开多", strategy.long, available_funds)
 if shortCond and condition
-    strategy.entry("开空", strategy.short)
+    strategy.entry("开空", strategy.short, available_funds)
 
 // 显示交易文本提示，提供可视化的买卖信号
 plotshape(longCond and condition, title="", location=location.belowbar, color=color.green, style=shape.labelup, size=size.small, text="")
 plotshape(shortCond and condition, title="", location=location.abovebar, color=color.red, style=shape.labeldown, size=size.small, text="")
 
 // 创建预警条件，以便在符合交易条件时发出通知
-alertcondition(longCond and condition, title="看涨", message="看涨信号 - 开多")
-alertcondition(shortCond and condition, title="看跌", message="看跌信号 - 开空")
+// alertcondition(longCond and condition, title="看涨", message="看涨信号 - 开多")
+// alertcondition(shortCond and condition, title="看跌", message="看跌信号 - 开空")
