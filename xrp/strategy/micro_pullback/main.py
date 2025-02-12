@@ -1,6 +1,8 @@
 import backtrader as bt
 import pandas as pd
 
+import backtrader as bt
+
 class KLineStrategy(bt.Strategy):
     params = (
         ('n', 20),      # 形态周期
@@ -9,48 +11,50 @@ class KLineStrategy(bt.Strategy):
     )
 
     def __init__(self):
-        # 初始化指标引用
         self.close = self.datas[0].close
         self.high = self.datas[0].high
         
-        # 计算n周期前的收盘价
-        self.close_n = bt.indicators.Highest(self.close(-self.params.n), period=self.params.n)
+        # 关键修正：直接通过索引获取n周期前的收盘价序列
+        self.close_n = self.close(-self.params.n)  # 延迟操作符
         
         # 计算n周期内最高价
         self.highest_high = bt.indicators.Highest(self.high, period=self.params.n)
 
     def next(self):
-        # 避免在初始阶段计算
         if len(self) < self.params.n:
             return
 
-        # 条件1: 最高价相比n周期前收盘价上涨p%
+        # 条件验证
+        # TODO 不要20根，要不断向前找，找到确定的最低点，来看当前这波的涨幅的宽高
         cond_up = self.highest_high[0] >= self.close_n[0] * (1 + self.params.p / 100)
-        
-        # 条件2: 当前收盘价高于前一根收盘价
+        # TODO 确定下跌的宽度，比如当前k线到最高点下跌k线的百分比 达到多少
+        # TODO micro pullback的反转点是否可以通过成交量来体现？
+        # TODO 卖出点 止盈 回到最高点出50%，剩下的逐渐出完，止损 在开单前一根的最低价
         cond_reversal = self.close[0] > self.close[-1]
-        
-        # 条件3: 当前收盘价低于最高价（处于下跌阶段）
         cond_downtrend = self.close[0] < self.highest_high[0]
-        
-        # 综合买入条件
-        if cond_up and cond_reversal and cond_downtrend:
-            # 计算头寸规模（全仓买入）
-            size = self.broker.getcash() / self.close[0]
-            # 发出买入订单
-            self.order = self.buy(size=size)
-            
-            # 计算止盈止损价格
-            entry_price = self.close[0]
-            stop_loss = entry_price * (1 - self.params.stop_percent / 100)
-            take_profit = entry_price * (1 + self.params.stop_percent / 100)
-            
-            # 添加止盈止损订单（bracket订单）
-            self.sell(exectype=bt.Order.Limit, price=take_profit, parent=self.order)
-            self.sell(exectype=bt.Order.Stop, price=stop_loss, parent=self.order)
 
+        if cond_up and cond_reversal and cond_downtrend:
+            # 计算头寸规模
+            cash = self.broker.getcash()
+            price = self.close[0]
+            
+            # 确保 price 有效且 cash 足够
+            if price > 0 and cash > 0:
+                size = cash / price
+                if size > 0:  # 确保 size 有效
+                    # 使用 buy_bracket 创建订单
+                    self.order = self.buy_bracket(
+                        size=size,
+                        stopprice=price * (1 - self.params.stop_percent / 100),
+                        limitprice=price * (1 + self.params.stop_percent / 100)
+                    )
+                    if self.order is None:
+                        print("警告：buy_bracket 返回 None，订单未创建")
+                else:
+                    print(f"警告：size={size} 无效，无法创建订单")
+            else:
+                print(f"警告：cash={cash} 或 price={price} 无效，无法创建订单")
     def notify_order(self, order):
-        # 订单状态监控
         if order.status in [order.Completed]:
             if order.isbuy():
                 print(f'买入 @ {order.executed.price:.2f}')
@@ -64,11 +68,6 @@ cerebro = bt.Cerebro()
 data = bt.feeds.GenericCSVData(
     dataname='/Users/wyc/CODE/quant/xrp/data/XRPUSDT_5m_full.csv',
     dtformat=('%Y-%m-%d %H:%M:%S'),
-    open=1,
-    high=2,
-    low=3,
-    close=4,
-    volume=5,
     timeframe=bt.TimeFrame.Minutes,  # 时间周期为分钟
     compression=5,  # 5分钟
     openinterest=-1
@@ -79,7 +78,7 @@ cerebro.adddata(data)
 cerebro.addstrategy(KLineStrategy)
 
 # 设置初始资金
-cerebro.broker.setcash(100000.0)
+cerebro.broker.setcash(1000.0)
 
 # 运行回测
 print('初始资金: %.2f' % cerebro.broker.getvalue())
