@@ -4,55 +4,9 @@ import yfinance as yf
 import pandas as pd
 from datetime import datetime, timedelta
 import time
-from concurrent.futures import ThreadPoolExecutor, as_completed
-
-IS_TEST = False
-def timeit(func):
-    def wrapper(*args, **kwargs):
-        start_time = time.time()
-        result = func(*args, **kwargs)
-        end_time = time.time()
-
-        # print(f"{func.__name__} finished in {end_time - start_time:.6f} seconds.")
-
-        return result
-
-    return wrapper
 
 
-def convert_to_beijing_time(df):
-    """
-    将时间列转换为北京时间。
-    Yahoo Finance 返回的时间是 UTC-5 时间，北京时间是 UTC+8。
-    
-    :param df: 包含时间列的 DataFrame
-    :return: 转换后的 DataFrame
-    """
-    if not df.empty:
-        # 将时间列转换为 DatetimeIndex（如果尚未转换）
-        if not isinstance(df.index, pd.DatetimeIndex):
-            df.index = pd.to_datetime(df.index)
-        
-        # 将 UTC 时间转换为北京时间（UTC+8）
-        df.index = df.index + timedelta(hours=13)
-    
-    return df
-
-def save_to_csv(data, filename):
-    """
-    将数据保存到 CSV 文件。
-    
-    :param data: 要保存的 DataFrame
-    :param filename: 保存的文件名
-    """
-    try:
-        data.to_csv(filename, encoding='utf-8-sig')  # 使用 utf-8-sig 编码避免中文乱码
-        print(f"数据已保存到 {filename}")
-    except Exception as e:
-        print(f"保存数据失败: {e}")
-
-
-def save_last_20_min_data(list_rows, stock_list):
+def save_last_20_min_data(is_pre, list_rows, stock_list):
     for row in list_rows:
         try:
             # 提取股票代码
@@ -60,20 +14,23 @@ def save_last_20_min_data(list_rows, stock_list):
             # 提取涨幅
             change = row.find('span', class_='positive-p_QIAEOQ').text.strip()
             change = float(change[1:-1])
-            if change > 10:
-                stock_list.append(ticker)
-            # # 提取价格
-            # price_cell = row.find_all('td', class_='cell-RLhfr_y4 right-RLhfr_y4')[1]  # 第二个符合条件的<td>
-            # price = float(price_cell.text.strip().split()[0])
-            # vol_cel = row.find_all('td', class_='cell-RLhfr_y4 right-RLhfr_y4')[2]
-            # vol_txt = vol_cel.text.encode('utf-8').replace(b'\xe2\x80\xaf', b'').decode('utf-8')
-            # if 'K' in vol_txt:
-            #     volume = float(vol_txt.replace('K', '')) * 1e3
-            # elif 'M' in vol_txt:
-            #     volume = float(vol_txt.replace('M', '')) * 1e6
-            # else:
-            #     volume = float(vol_txt)
-            # td_all = row.find_all('td', class_='cell-RLhfr_y4 right-RLhfr_y4')
+            # 提取价格
+            price_cell = row.find_all('td', class_='cell-RLhfr_y4 right-RLhfr_y4')[1]  # 第二个符合条件的<td>
+            price = float(price_cell.text.strip().split()[0])
+            
+            vol_index = 3 if is_pre else 2
+            vol_cel = row.find_all('td', class_='cell-RLhfr_y4 right-RLhfr_y4')[vol_index]
+            vol_txt = vol_cel.text.encode('utf-8').replace(b'\xe2\x80\xaf', b'').decode('utf-8')
+            td_all = row.find_all('td', class_='cell-RLhfr_y4 right-RLhfr_y4')
+            if 'K' in vol_txt:
+                volume = float(vol_txt.replace('K', '')) * 1e3
+            elif 'M' in vol_txt:
+                volume = float(vol_txt.replace('M', '')) * 1e6
+            else:
+                volume = float(vol_txt)
+        
+            if change > 15 and price < 40 and volume > 10000:
+                stock_list[ticker] = (change, price, volume)
 
             # print(td_all)
             # print(f"股票代码: {ticker}, 涨幅: {change}%, 价格: {price}")
@@ -101,10 +58,10 @@ def get_request(is_pre, stock_list):
         
         # 查找所有class包含'listRow'的元素
         list_rows = soup.find_all(class_='listRow')
-        save_last_20_min_data(list_rows, stock_list)
+        save_last_20_min_data(is_pre, list_rows, stock_list)
 
     else:
         print(f"Failed to retrieve the webpage. Status code: {response.status_code}")
 
 if __name__ == '__main__':
-    get_request(False)
+    get_request(True, {})
