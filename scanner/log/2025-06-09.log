@@ -1,0 +1,499 @@
+调度器启动，按 Ctrl+C 退出...
+2025-06-09 18:46:18.913215
+KNW
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AKNW
+no recent news
+Greg Kidd to Acquire Controlling Interest in Know Labs and Introduce Bitcoin Treasury Strategy
+2 days ago
+OMH
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AOMH
+no recent news
+Ohmyhome Reports 118% Revenue Growth for Fiscal Year 2024
+1 month ago
+TPST
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ATPST
+no recent news
+Tempest Receives Orphan Drug Designation from the European Medicines Agency for Amezalpat for the Treatment of Patients with HCC
+3 days ago
+NUWE
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANUWE
+no recent news
+Nuwellis, Inc. Reports First Quarter 2025 Financial Results and Business Highlights
+26 days ago
+KWM
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AKWM
+no recent news
+K Wave Media, Inc. (Nasdaq: KWM) (“K Wave” or the “Company”) Announces entering into a securities purchase agreement for $500 Million Equity Purchase Facility to Support Bitcoin Treasury Strategy
+4 days ago
+2025-06-09 18:47:18.958890
+UAVS
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AUAVS
+no recent news
+AgEagle Aerial Systems Provides Technology to Enhance European Security
+3 days ago
+2025-06-09 18:48:19.346134
+2025-06-09 18:49:19.588227
+2025-06-09 18:50:19.015487
+2025-06-09 18:51:19.527699
+CHGG
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ACHGG
+no recent news
+Chegg Reports 2025 First Quarter Earnings
+27 days ago
+2025-06-09 18:52:18.768479
+2025-06-09 18:53:19.010318
+2025-06-09 18:54:18.706315
+2025-06-09 18:55:18.778452
+2025-06-09 18:56:18.962837
+2025-06-09 18:57:18.811739
+ONDS
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AONDS
+no recent news
+Ondas Holdings Reports First Quarter 2025 Financial Results-On Track for Record Year
+24 days ago
+2025-06-09 18:58:19.052079
+2025-06-09 18:59:18.996475
+PYPD
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APYPD
+no recent news
+PolyPid to Host Conference Call and Webcast to Discuss D-PLEX₁₀₀ SHIELD II Phase 3 Trial Topline Results on Monday, June 9, 2025
+2 days ago
+2025-06-09 19:00:18.791063
+2025-06-09 19:01:18.807030
+TGE
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ATGE
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100bde654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x0000000100bd68c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x000000010072a714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x00000001007717c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x00000001007b2de8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x00000001007659c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x0000000100ba2278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x0000000100ba550c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x0000000100b83a64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000100ba5d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000100b74d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x0000000100bc5d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x0000000100bc5eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x0000000100bd6514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x000000019550ef94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000195509d34 thread_start + 8
+
+no recent news
+NYSE Content Advisory: Pre-Market update + Circle shares surge in first day of trading
+2 days ago
+2025-06-09 19:03:18.776310
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001051c6654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x00000001051be8c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x0000000104d12714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x0000000104d597c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x0000000104d9ade8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x0000000104d4d9c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x000000010518a278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x000000010518d50c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x000000010516ba64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x000000010518dd94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x000000010515cd58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x00000001051add60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x00000001051adeec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x00000001051be514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x000000019550ef94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000195509d34 thread_start + 8
+
+2025-06-09 19:04:18.725644
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102cea654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x0000000102ce28c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x0000000102836714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x000000010287d7c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x00000001028bede8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x00000001028719c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x0000000102cae278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x0000000102cb150c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x0000000102c8fa64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000102cb1d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000102c80d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x0000000102cd1d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x0000000102cd1eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x0000000102ce2514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x000000019550ef94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000195509d34 thread_start + 8
+
+KLTO
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AKLTO
+KLOTHO NEUROSCIENCE, INC. ANNOUNCES AN APPROACH TO INCREASE LONGEVITY AND HEALTHY LIFE SPAN - REPLACE A SILENCED GENE CALLED ALPHA-KLOTHO ("α-KLOTHO")
+5 minutes ago
+2025-06-09 19:06:19.007165
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010472e654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x00000001047268c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x000000010427a714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x00000001042c17c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x0000000104302de8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x00000001042b59c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x00000001046f2278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x00000001046f550c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x00000001046d3a64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x00000001046f5d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x00000001046c4d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x0000000104715d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x0000000104715eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x0000000104726514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x000000019550ef94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000195509d34 thread_start + 8
+
+2025-06-09 19:07:18.781130
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102d4e654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x0000000102d468c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x000000010289a714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x00000001028e17c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x0000000102922de8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x00000001028d59c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x0000000102d12278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x0000000102d1550c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x0000000102cf3a64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000102d15d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000102ce4d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x0000000102d35d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x0000000102d35eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x0000000102d46514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x000000019550ef94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000195509d34 thread_start + 8
+
+2025-06-09 19:09:18.718290
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104aea654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x0000000104ae28c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x0000000104636714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x000000010467d7c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x00000001046bede8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x00000001046719c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x0000000104aae278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x0000000104ab150c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x0000000104a8fa64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000104ab1d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000104a80d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x0000000104ad1d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x0000000104ad1eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x0000000104ae2514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x000000019550ef94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000195509d34 thread_start + 8
+
+2025-06-09 19:11:18.979259
+发生错误: HTTPConnectionPool(host='localhost', port=62330): Max retries exceeded with url: /session/687ea021e86f2c868f08a8a712301828/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10cd0f620>: Failed to establish a new connection: [Errno 61] Connection refused'))
+发生错误: HTTPConnectionPool(host='localhost', port=62330): Max retries exceeded with url: /session/687ea021e86f2c868f08a8a712301828/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10cdad7c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+调度器已关闭
+调度器启动，按 Ctrl+C 退出...
+2025-06-09 19:12:07.986869
+KNW
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AKNW
+no recent news
+Greg Kidd to Acquire Controlling Interest in Know Labs and Introduce Bitcoin Treasury Strategy
+2 days ago
+OMH
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AOMH
+no recent news
+Ohmyhome Reports 118% Revenue Growth for Fiscal Year 2024
+1 month ago
+KLTO
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AKLTO
+KLOTHO NEUROSCIENCE, INC. ANNOUNCES AN APPROACH TO INCREASE LONGEVITY AND HEALTHY LIFE SPAN - REPLACE A SILENCED GENE CALLED ALPHA-KLOTHO ("α-KLOTHO")
+12 minutes ago
+调度器启动，按 Ctrl+C 退出...
+2025-06-09 19:13:06.431042
+KNW
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AKNW
+no recent news
+Greg Kidd to Acquire Controlling Interest in Know Labs and Introduce Bitcoin Treasury Strategy
+2 days ago
+OMH
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AOMH
+no recent news
+Ohmyhome Reports 118% Revenue Growth for Fiscal Year 2024
+1 month ago
+KLTO
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AKLTO
+KLOTHO NEUROSCIENCE, INC. ANNOUNCES AN APPROACH TO INCREASE LONGEVITY AND HEALTHY LIFE SPAN - REPLACE A SILENCED GENE CALLED ALPHA-KLOTHO ("α-KLOTHO")
+13 minutes ago
+调度器启动，按 Ctrl+C 退出...
+2025-06-09 19:14:49.080189
+KNW
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AKNW
+no recent news
+Greg Kidd to Acquire Controlling Interest in Know Labs and Introduce Bitcoin Treasury Strategy
+2 days ago
+OMH
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AOMH
+no recent news
+Ohmyhome Reports 118% Revenue Growth for Fiscal Year 2024
+1 month ago
+KLTO
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AKLTO
+KLOTHO NEUROSCIENCE, INC. ANNOUNCES AN APPROACH TO INCREASE LONGEVITY AND HEALTHY LIFE SPAN - REPLACE A SILENCED GENE CALLED ALPHA-KLOTHO ("α-KLOTHO")
+15 minutes ago
+TPST
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ATPST
+no recent news
+Tempest Receives Orphan Drug Designation from the European Medicines Agency for Amezalpat for the Treatment of Patients with HCC
+3 days ago
+NCL
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANCL
+no recent news
+Northann Corp. Issues Statement on Recent Stock Volatility
+2 days ago
+NUWE
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANUWE
+no recent news
+Nuwellis, Inc. Reports First Quarter 2025 Financial Results and Business Highlights
+27 days ago
+PYPD
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APYPD
+no recent news
+PolyPid to Host Conference Call and Webcast to Discuss D-PLEX₁₀₀ SHIELD II Phase 3 Trial Topline Results on Monday, June 9, 2025
+2 days ago
+TGE
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ATGE
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102fb2654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x0000000102faa8c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x0000000102afe714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x0000000102b457c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x0000000102b86de8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x0000000102b399c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x0000000102f76278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x0000000102f7950c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x0000000102f57a64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000102f79d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000102f48d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x0000000102f99d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x0000000102f99eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x0000000102faa514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x000000019550ef94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000195509d34 thread_start + 8
+
+no recent news
+NYSE Content Advisory: Pre-Market update + Circle shares surge in first day of trading
+2 days ago
+2025-06-09 19:15:49.436023
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102f22654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x0000000102f1a8c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x0000000102a6e714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x0000000102ab57c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x0000000102af6de8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x0000000102aa99c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x0000000102ee6278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x0000000102ee950c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x0000000102ec7a64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000102ee9d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000102eb8d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x0000000102f09d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x0000000102f09eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x0000000102f1a514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x000000019550ef94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000195509d34 thread_start + 8
+
+2025-06-09 19:16:49.106692
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001034c2654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x00000001034ba8c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x000000010300e714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x00000001030557c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x0000000103096de8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x00000001030499c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x0000000103486278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x000000010348950c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x0000000103467a64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000103489d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000103458d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x00000001034a9d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x00000001034a9eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x00000001034ba514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x000000019550ef94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000195509d34 thread_start + 8
+
+2025-06-09 19:17:48.985024
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102b86654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x0000000102b7e8c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x00000001026d2714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x00000001027197c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x000000010275ade8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x000000010270d9c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x0000000102b4a278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x0000000102b4d50c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x0000000102b2ba64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000102b4dd94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000102b1cd58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x0000000102b6dd60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x0000000102b6deec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x0000000102b7e514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x000000019550ef94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000195509d34 thread_start + 8
+
+2025-06-09 19:18:49.392869
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010112a654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x00000001011228c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x0000000100c76714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x0000000100cbd7c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x0000000100cfede8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x0000000100cb19c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x00000001010ee278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x00000001010f150c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x00000001010cfa64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x00000001010f1d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x00000001010c0d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x0000000101111d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x0000000101111eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x0000000101122514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x000000019550ef94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000195509d34 thread_start + 8
+
+2025-06-09 19:19:48.882512
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000103012654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x000000010300a8c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x0000000102b5e714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x0000000102ba57c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x0000000102be6de8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x0000000102b999c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x0000000102fd6278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x0000000102fd950c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x0000000102fb7a64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000102fd9d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000102fa8d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x0000000102ff9d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x0000000102ff9eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x000000010300a514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x000000019550ef94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000195509d34 thread_start + 8
+
+2025-06-09 19:20:48.957599
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100842654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x000000010083a8c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x000000010038e714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x00000001003d57c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x0000000100416de8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x00000001003c99c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x0000000100806278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x000000010080950c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x00000001007e7a64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000100809d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x00000001007d8d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x0000000100829d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x0000000100829eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x000000010083a514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x000000019550ef94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000195509d34 thread_start + 8
+
+2025-06-09 19:21:48.828302
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100fba654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x0000000100fb28c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x0000000100b06714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x0000000100b4d7c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x0000000100b8ede8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x0000000100b419c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x0000000100f7e278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x0000000100f8150c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x0000000100f5fa64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000100f81d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000100f50d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x0000000100fa1d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x0000000100fa1eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x0000000100fb2514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x000000019550ef94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000195509d34 thread_start + 8
+
+LPCN
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ALPCN
+no recent news
+Lipocine's LPCN 1148 Highlighted in the June 2025 Edition of Hepatology
+17 days ago
+2025-06-09 19:22:48.978092
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001054d2654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x00000001054ca8c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x000000010501e714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x00000001050657c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x00000001050a6de8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x00000001050599c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x0000000105496278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x000000010549950c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x0000000105477a64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000105499d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000105468d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x00000001054b9d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x00000001054b9eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x00000001054ca514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x000000019550ef94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000195509d34 thread_start + 8
+
+2025-06-09 19:23:48.865491
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001032ea654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x00000001032e28c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x0000000102e36714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x0000000102e7d7c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x0000000102ebede8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x0000000102e719c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x00000001032ae278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x00000001032b150c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x000000010328fa64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x00000001032b1d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000103280d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x00000001032d1d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x00000001032d1eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x00000001032e2514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x000000019550ef94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000195509d34 thread_start + 8
+
+UAVS
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AUAVS
+no recent news
+AgEagle Aerial Systems Provides Technology to Enhance European Security
+3 days ago
+2025-06-09 19:24:49.246090
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100e42654 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x0000000100e3a8c8 cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x000000010098e714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x00000001009d57c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x0000000100a16de8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x00000001009c99c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x0000000100e06278 cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x0000000100e0950c cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x0000000100de7a64 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000100e09d94 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000100dd8d58 cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x0000000100e29d60 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x0000000100e29eec cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x0000000100e3a514 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x000000019550ef94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000195509d34 thread_start + 8
+
+2025-06-09 19:25:48.952966
+发生错误: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+发生错误: HTTPConnectionPool(host='localhost', port=59254): Max retries exceeded with url: /session/2e380080c4b3affcec325c4c58f43d84/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x111be8cb0>: Failed to establish a new connection: [Errno 61] Connection refused'))
