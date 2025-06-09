@@ -50,6 +50,7 @@ def target(is_pre):
             print('https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3A' + stock_name)
             print(news_data['title'])
             print(news_data['time'])
+            del watch_list[stock_name]
         else:
             watch_list[stock_name] = watch_list[stock_name] - 1
     for stock_name in result:
@@ -60,8 +61,12 @@ def target(is_pre):
         if news_data and news_data['time'] and 'min' in news_data['time']:
             print(news_data['title'])
             print(news_data['time'])
+            if stock_name in watch_list:
+                del watch_list[stock_name]
         else:
-            print('no news')
+            print('no recent news')
+            print(news_data['title'])
+            print(news_data['time'])
             if stock_name not in watch_list:
                 watch_list[stock_name] = WATCH_CONTINUED_MINUTES
             else:
