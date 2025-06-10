@@ -135,12 +135,12 @@ def get_news_data(stock_code):
         else:
             news_data['time'] = convert_us_to_shanghai_time(news_data['time'])
             news_data['time'] = time_ago(news_data['time'])
-        return news_data
     except Exception as e:
         print(f"发生错误: {str(e)}")
     finally:
         # 关闭浏览器
         driver.quit()
+        return news_data
 
 if __name__ == "__main__":
     result = get_news_data('KNW')

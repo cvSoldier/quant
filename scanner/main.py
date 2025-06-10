@@ -65,8 +65,9 @@ def target(is_pre):
                 del watch_list[stock_name]
         else:
             print('no recent news')
-            print(news_data['title'])
-            print(news_data['time'])
+            if news_data:
+                print(news_data['title'])
+                print(news_data['time'])
             if stock_name not in watch_list:
                 watch_list[stock_name] = WATCH_CONTINUED_MINUTES
             else:
