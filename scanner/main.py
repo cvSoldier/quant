@@ -4,12 +4,26 @@ from datetime import datetime
 from use_request import get_request
 import redirect_print
 from finance_pachong import get_news_data
+from googletrans import Translator
 
 CURENT_IDX = 0
 TOTAL_LEN = 20
 arr_2d = [{} for _ in range(TOTAL_LEN)]
 watch_list = {}
 WATCH_CONTINUED_MINUTES = 10
+
+
+def ggtran(text,dest='zh-cn', src='auto'):
+    """
+    googletrans api 翻译调用
+    :param text: 要翻译的原文
+    :param dest: 翻译后输出的语言种类
+    :param src: 原文的语言种类（auto为默认识别）
+    :return: 翻译后的内容
+    """
+    translater = Translator()
+    result = translater.translate(text, dest, src)
+    return result.text
 
 
 def reset_watch_list():
@@ -49,6 +63,7 @@ def target(is_pre):
             print(stock_name)
             print('https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3A' + stock_name)
             print(news_data['title'])
+            print(ggtran(news_data['title']))
             print(news_data['time'])
             del watch_list[stock_name]
         else:
@@ -60,14 +75,16 @@ def target(is_pre):
         # 是几分钟前的消息
         if news_data and news_data['time'] and 'min' in news_data['time']:
             print(news_data['title'])
+            print(ggtran(news_data['title']))
             print(news_data['time'])
             if stock_name in watch_list:
                 del watch_list[stock_name]
         else:
             print('no recent news')
-            if news_data:
-                print(news_data['title'])
-                print(news_data['time'])
+            # if news_data:
+            #     print(news_data['title'])
+            #     print(ggtran(news_data['title']))
+            #     print(news_data['time'])
             if stock_name not in watch_list:
                 watch_list[stock_name] = WATCH_CONTINUED_MINUTES
             else:
