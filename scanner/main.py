@@ -14,16 +14,18 @@ WATCH_CONTINUED_MINUTES = 10
 
 
 def ggtran(text,dest='zh-cn', src='auto'):
-    """
-    googletrans api 翻译调用
-    :param text: 要翻译的原文
-    :param dest: 翻译后输出的语言种类
-    :param src: 原文的语言种类（auto为默认识别）
-    :return: 翻译后的内容
-    """
-    translater = Translator()
-    result = translater.translate(text, dest, src)
-    return result.text
+    from translate import Translator
+    try:
+        translator = Translator(to_lang="zh")
+        translation = translator.translate(text)
+        return translation
+    except Exception as e:
+        print(f"翻译发生错误: {str(e)}")
+    finally:
+        return ''
+
+def print_stock_name(name):
+    print(f'---------{name}')
 
 
 def reset_watch_list():
@@ -31,6 +33,8 @@ def reset_watch_list():
     keys_to_remove = [k for k, v in watch_list.items() if v == 0]
     # 然后逐个删除
     for key in keys_to_remove:
+        print('删除key')
+        print(key)
         del watch_list[key]
 
 
@@ -39,6 +43,7 @@ def target(is_pre):
     global CURENT_IDX
     global watch_list
     
+    reset_watch_list()
     already_in_stock_name = {}
     for d in arr_2d:
         already_in_stock_name.update(d)
@@ -48,7 +53,7 @@ def target(is_pre):
     result = []
     for key, val in arr_2d[CURENT_IDX].items():
         if key not in already_in_stock_name:
-            result.append(key)
+            result.append((key, val[0]))
         else:
             order_arr_2d = reorder_array(arr_2d, CURENT_IDX)
             # TODO
@@ -60,31 +65,31 @@ def target(is_pre):
         news_data = get_news_data(stock_name)
         # 是几分钟前的消息
         if news_data and news_data['time'] and 'min' in news_data['time']:
-            print(stock_name)
+            print_stock_name(stock_name)
             print('https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3A' + stock_name)
+            print(news_data['time'])
             print(news_data['title'])
             print(ggtran(news_data['title']))
-            print(news_data['time'])
             del watch_list[stock_name]
         else:
             watch_list[stock_name] = watch_list[stock_name] - 1
-    for stock_name in result:
-        print(stock_name)
+    for stock_name, change in result:
+        print_stock_name(f'{stock_name} {change}%')
         print('https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3A' + stock_name)
         news_data = get_news_data(stock_name)
         # 是几分钟前的消息
-        if news_data and news_data['time'] and 'min' in news_data['time']:
+        if news_data and news_data['time'] and ('min' in news_data['time'] or 'hour' in news_data['time']):
+            print(news_data['time'])
             print(news_data['title'])
             print(ggtran(news_data['title']))
-            print(news_data['time'])
             if stock_name in watch_list:
                 del watch_list[stock_name]
         else:
             print('no recent news')
             # if news_data:
+            #     print(news_data['time'])
             #     print(news_data['title'])
             #     print(ggtran(news_data['title']))
-            #     print(news_data['time'])
             if stock_name not in watch_list:
                 watch_list[stock_name] = WATCH_CONTINUED_MINUTES
             else:
