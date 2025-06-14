@@ -5,6 +5,7 @@ from use_request import get_request
 import redirect_print
 from finance_pachong import get_news_data
 from googletrans import Translator
+from translate import Translator
 
 CURENT_IDX = 0
 TOTAL_LEN = 20
@@ -14,15 +15,13 @@ WATCH_CONTINUED_MINUTES = 10
 
 
 def ggtran(text,dest='zh-cn', src='auto'):
-    from translate import Translator
     try:
         translator = Translator(to_lang="zh")
         translation = translator.translate(text)
-        return translation
     except Exception as e:
         print(f"翻译发生错误: {str(e)}")
     finally:
-        return ''
+        return translation or ''
 
 def print_stock_name(name):
     print(f'---------{name}')
@@ -33,9 +32,8 @@ def reset_watch_list():
     keys_to_remove = [k for k, v in watch_list.items() if v == 0]
     # 然后逐个删除
     for key in keys_to_remove:
-        print('删除key')
-        print(key)
         del watch_list[key]
+    print(f'删除key: {keys_to_remove}')
 
 
 def target(is_pre):
