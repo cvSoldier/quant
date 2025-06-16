@@ -1,0 +1,412 @@
+调度器启动，按 Ctrl+C 退出...
+删除key: []
+删除key: []
+2025-06-16 18:43:19.686256
+调度器启动，按 Ctrl+C 退出...
+删除key: []
+2025-06-16 18:43:35.816664
+---------TMDE 169.47%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ATMDE
+no recent news
+---------BATL 159.76%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ABATL
+no recent news
+---------OP 159.63%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AOP
+no recent news
+---------RGC 123.49%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ARGC
+StockTitan 获取 CCCM 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+no recent news
+---------SATS 48.52%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASATS
+no recent news
+---------KWM 41.38%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AKWM
+no recent news
+---------NEHC 38.95%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANEHC
+no recent news
+---------AIRO 31.67%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AAIRO
+no recent news
+---------SBET 26.0%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASBET
+no recent news
+---------TE 21.05%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ATE
+44 minutes ago
+T1 Energy Advances $850 Million Planned 5 GW Solar Cell Plant
+T1 Energy推进8.5亿美元计划中的5吉瓦太阳能电池工厂
+---------CRML 17.73%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ACRML
+no recent news
+---------CCCM
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ACCCM
+23 minutes ago
+Visa Is One of the Largest Financial Companies by Market Cap. But Is It a Buy?
+按市值计算， Visa是最大的金融公司之一。但这是买入吗？
+---------TMDE
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ATMDE
+no recent news
+---------BATL
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ABATL
+no recent news
+---------RGC
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ARGC
+no recent news
+---------OP
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AOP
+no recent news
+---------SATS
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASATS
+no recent news
+---------KWM
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AKWM
+no recent news
+---------NEHC
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANEHC
+no recent news
+---------AIRO
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AAIRO
+no recent news
+---------SBET
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASBET
+no recent news
+---------TE
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ATE
+45 minutes ago
+T1 Energy Advances $850 Million Planned 5 GW Solar Cell Plant
+T1 Energy推进8.5亿美元计划中的5吉瓦太阳能电池工厂
+---------CGBS
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ACGBS
+no recent news
+删除key: []
+2025-06-16 18:45:19.065662
+删除key: []
+2025-06-16 18:45:36.359336
+---------PCSA 78.49%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APCSA
+no recent news
+删除key: []
+2025-06-16 18:46:35.897574
+删除key: []
+2025-06-16 18:47:18.949274
+删除key: []
+2025-06-16 18:47:36.182024
+删除key: []
+2025-06-16 18:48:36.366283
+---------PCSA
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APCSA
+no recent news
+删除key: []
+2025-06-16 18:49:19.466124
+删除key: []
+2025-06-16 18:49:36.133362
+删除key: []
+2025-06-16 18:50:36.007000
+删除key: []
+2025-06-16 18:51:19.370841
+删除key: []
+2025-06-16 18:51:36.535470
+删除key: []
+2025-06-16 18:52:36.123666
+删除key: []
+2025-06-16 18:53:19.009307
+删除key: []
+2025-06-16 18:53:35.901284
+删除key: []
+2025-06-16 18:54:36.030084
+删除key: []
+2025-06-16 18:55:19.647723
+删除key: ['TMDE', 'BATL', 'OP', 'RGC', 'SATS', 'KWM', 'NEHC', 'AIRO', 'SBET', 'CRML']
+2025-06-16 18:55:36.039876
+删除key: ['PCSA']
+2025-06-16 18:56:36.500822
+删除key: []
+2025-06-16 18:57:19.525742
+删除key: []
+2025-06-16 18:57:36.110283
+删除key: []
+2025-06-16 18:58:36.886192
+删除key: ['RBNE', 'HUSA', 'NEON', 'ICON', 'USEG', 'INDO', 'MXC', 'KLXE', 'CRML', 'BDMD', 'RCON', 'TORO', 'MTEK', 'DDC', 'SNES', 'KPLT', 'MDBH', 'GPRE', 'PPIH', 'RUN', 'CISS', 'GTE', 'PHOE', 'NXGL', 'ATHR', 'GNLX', 'NUKK']
+2025-06-16 18:59:19.610680
+删除key: []
+2025-06-16 18:59:35.890792
+---------DWSN 75.91%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ADWSN
+no recent news
+---------GBR 16.52%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AGBR
+no recent news
+---------DWSN
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ADWSN
+no recent news
+---------GBR
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AGBR
+no recent news
+删除key: []
+2025-06-16 19:00:19.659334
+删除key: []
+2025-06-16 19:00:37.965190
+删除key: []
+2025-06-16 19:01:19.317866
+删除key: []
+2025-06-16 19:01:36.420341
+删除key: ['TMDE', 'BATL', 'RGC', 'OP', 'SATS', 'KWM', 'NEHC', 'AIRO', 'SBET', 'CGBS']
+2025-06-16 19:02:18.939058
+删除key: []
+2025-06-16 19:02:36.410560
+删除key: []
+2025-06-16 19:03:19.158716
+删除key: []
+2025-06-16 19:03:35.981739
+---------HCTI 29.56%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AHCTI
+no recent news
+删除key: ['PCSA']
+2025-06-16 19:04:19.067004
+---------HCTI
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AHCTI
+no recent news
+删除key: []
+2025-06-16 19:04:36.987261
+删除key: []
+2025-06-16 19:05:18.927123
+删除key: []
+2025-06-16 19:05:36.272259
+删除key: []
+2025-06-16 19:06:19.329360
+删除key: []
+2025-06-16 19:06:36.633942
+删除key: []
+2025-06-16 19:07:19.348066
+删除key: []
+2025-06-16 19:07:36.094922
+删除key: []
+2025-06-16 19:08:19.557520
+---------NINE
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANINE
+no recent news
+删除key: []
+2025-06-16 19:08:36.047146
+---------NINE 16.59%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANINE
+no recent news
+---------NEON 16.0%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANEON
+no recent news
+删除key: []
+2025-06-16 19:09:19.032297
+删除key: []
+2025-06-16 19:09:37.022714
+删除key: ['DWSN', 'GBR']
+2025-06-16 19:10:18.879557
+删除key: ['DWSN', 'GBR']
+2025-06-16 19:10:35.939199
+---------STAK 129.23%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASTAK
+no recent news
+删除key: []
+2025-06-16 19:11:18.923246
+---------STAK
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASTAK
+no recent news
+删除key: []
+2025-06-16 19:11:36.142652
+删除key: []
+2025-06-16 19:12:20.427444
+删除key: []
+2025-06-16 19:12:36.806501
+删除key: []
+2025-06-16 19:13:19.607783
+删除key: []
+2025-06-16 19:13:36.644895
+删除key: []
+2025-06-16 19:14:18.947125
+删除key: ['HCTI']
+2025-06-16 19:14:35.790094
+删除key: ['HCTI']
+2025-06-16 19:15:19.827009
+删除key: []
+2025-06-16 19:15:36.696945
+删除key: []
+2025-06-16 19:16:18.957906
+删除key: []
+2025-06-16 19:16:35.904806
+---------KLXE 24.11%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AKLXE
+no recent news
+删除key: []
+2025-06-16 19:17:19.189870
+删除key: []
+2025-06-16 19:17:38.216936
+---------RCON 22.35%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ARCON
+no recent news
+删除key: []
+2025-06-16 19:18:19.144615
+删除key: []
+2025-06-16 19:18:36.717639
+删除key: ['NINE']
+2025-06-16 19:19:19.131553
+删除key: ['NINE', 'NEON']
+2025-06-16 19:19:35.815792
+删除key: []
+2025-06-16 19:20:19.535610
+删除key: []
+2025-06-16 19:20:36.356777
+---------MARPS 79.49%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AMARPS
+no recent news
+---------LSE 66.67%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ALSE
+no recent news
+删除key: []
+2025-06-16 19:21:19.207683
+---------MARPS
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AMARPS
+no recent news
+---------LSE
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ALSE
+no recent news
+删除key: ['STAK']
+2025-06-16 19:21:36.370572
+删除key: ['STAK']
+2025-06-16 19:22:19.425026
+删除key: []
+2025-06-16 19:22:36.155882
+删除key: []
+2025-06-16 19:23:19.892268
+删除key: []
+2025-06-16 19:23:36.071930
+删除key: []
+2025-06-16 19:24:19.832091
+删除key: []
+2025-06-16 19:24:36.660515
+删除key: []
+2025-06-16 19:25:19.108507
+---------AIOT
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AAIOT
+25 minutes ago
+Powerfleet Reports Annual FY2025 Results: A Breakout Year of Strategic Transformation and Scaled Growth
+Powerfleet报告2025财年年度业绩：战略转型和规模增长的突破之年
+删除key: []
+2025-06-16 19:25:36.504761
+---------AIOT 17.3%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AAIOT
+26 minutes ago
+Powerfleet Reports Annual FY2025 Results: A Breakout Year of Strategic Transformation and Scaled Growth
+Powerfleet报告2025财年年度业绩：战略转型和规模增长的突破之年
+删除key: []
+2025-06-16 19:26:19.201688
+删除key: []
+2025-06-16 19:26:36.241595
+删除key: []
+2025-06-16 19:27:19.168377
+删除key: ['KLXE']
+2025-06-16 19:27:36.305340
+删除key: []
+2025-06-16 19:28:19.028590
+删除key: ['RCON']
+2025-06-16 19:28:36.511235
+删除key: []
+2025-06-16 19:29:19.212000
+删除key: []
+2025-06-16 19:29:36.303927
+删除key: []
+2025-06-16 19:30:20.248206
+删除key: []
+2025-06-16 19:30:35.862366
+删除key: []
+2025-06-16 19:31:19.202135
+删除key: ['MARPS', 'LSE']
+2025-06-16 19:31:36.295895
+删除key: ['MARPS', 'LSE']
+2025-06-16 19:32:20.036006
+---------SAGE
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASAGE
+no recent news
+删除key: []
+2025-06-16 19:32:35.821619
+---------SAGE 34.48%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASAGE
+no recent news
+删除key: []
+2025-06-16 19:33:19.586477
+删除key: []
+2025-06-16 19:33:36.472725
+---------ONMD 15.31%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AONMD
+no recent news
+删除key: []
+2025-06-16 19:34:19.143719
+---------ONMD
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AONMD
+no recent news
+删除key: []
+2025-06-16 19:34:36.044540
+删除key: []
+2025-06-16 19:35:19.017819
+删除key: []
+2025-06-16 19:35:37.001658
+删除key: []
+2025-06-16 19:36:19.120848
+删除key: []
+2025-06-16 19:36:36.052096
+删除key: []
+2025-06-16 19:37:19.266805
+删除key: []
+2025-06-16 19:37:36.248951
+---------PXS 20.97%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APXS
+no recent news
+删除key: []
+2025-06-16 19:38:19.066634
+---------PXS
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APXS
+no recent news
+删除key: []
+2025-06-16 19:38:35.853357
+删除key: []
+2025-06-16 19:39:19.151884
+---------PRTA
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APRTA
+6 hours ago
+Prothena’s Partner Roche to Advance Prasinezumab into Phase III Development for Early-Stage Parkinson's Disease
+删除key: []
+2025-06-16 19:39:36.019393
+Prothena的合作伙伴罗氏将推动Prasinezumab进入早期帕金森病的III期开发
+---------PRTA 16.34%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APRTA
+6 hours ago
+Prothena’s Partner Roche to Advance Prasinezumab into Phase III Development for Early-Stage Parkinson's Disease
+Prothena的合作伙伴罗氏将推动Prasinezumab进入早期帕金森病的III期开发
+删除key: []
+2025-06-16 19:40:19.251639
+删除key: []
+2025-06-16 19:40:36.199946
+---------BRN 34.46%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ABRN
+no recent news
+删除key: []
+2025-06-16 19:41:19.141468
+删除key: []
+2025-06-16 19:41:36.048878
+---------BRN
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ABRN
+no recent news
+删除key: []
+2025-06-16 19:42:18.995346
+删除key: []
+2025-06-16 19:42:36.340090
+删除key: ['SAGE']
+2025-06-16 19:43:19.034941
+删除key: ['SAGE']
+2025-06-16 19:43:36.353660
+调度器已关闭
+删除key: []
+2025-06-16 19:44:19.357077
