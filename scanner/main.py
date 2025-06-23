@@ -15,13 +15,14 @@ WATCH_CONTINUED_MINUTES = 10
 
 
 def ggtran(text,dest='zh-cn', src='auto'):
+    translation = ''
     try:
         translator = Translator(to_lang="zh")
         translation = translator.translate(text)
     except Exception as e:
         print(f"翻译发生错误: {str(e)}")
     finally:
-        return translation or ''
+        return translation
 
 def print_stock_name(name):
     print(f'---------{name}')
@@ -33,7 +34,7 @@ def reset_watch_list():
     # 然后逐个删除
     for key in keys_to_remove:
         del watch_list[key]
-    print(f'删除key: {keys_to_remove}')
+    # print(f'删除key: {keys_to_remove}')
 
 
 def target(is_pre):
@@ -64,7 +65,7 @@ def target(is_pre):
         # 是几分钟前的消息
         if news_data and news_data['time'] and 'min' in news_data['time']:
             print_stock_name(stock_name)
-            print('https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3A' + stock_name)
+            print('https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3A' + stock_name)
             print(news_data['time'])
             print(news_data['title'])
             print(ggtran(news_data['title']))
@@ -73,7 +74,7 @@ def target(is_pre):
             watch_list[stock_name] = watch_list[stock_name] - 1
     for stock_name, change in result:
         print_stock_name(f'{stock_name} {change}%')
-        print('https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3A' + stock_name)
+        print('https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3A' + stock_name)
         news_data = get_news_data(stock_name)
         # 是几分钟前的消息
         if news_data and news_data['time'] and ('min' in news_data['time'] or 'hour' in news_data['time']):
