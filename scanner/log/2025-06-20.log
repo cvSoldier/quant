@@ -1,0 +1,755 @@
+StockTitan 获取 HOVR 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/HOVR/", waiting until "load"
+
+StockTitan 获取 PXLW 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/PXLW/", waiting until "load"
+
+Yahoo 获取 PXLW 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/PXLW/news/", waiting until "load"
+
+Yahoo 获取 HOVR 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/HOVR/news/", waiting until "load"
+
+StockTitan 获取 DOMH 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/DOMH/", waiting until "load"
+
+StockTitan 获取 NA 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/NA/", waiting until "load"
+
+Yahoo 获取 DOMH 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/DOMH/news/", waiting until "load"
+
+Yahoo 获取 NA 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/NA/news/", waiting until "load"
+
+StockTitan 获取 OMCC 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+Yahoo 获取 OMCC 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/OMCC/news/", waiting until "load"
+
+---------AMZE
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AAMZE
+no recent news
+---------SSII
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASSII
+no recent news
+---------HOVR
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AHOVR
+no recent news
+---------PXLW
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APXLW
+no recent news
+---------DOMH
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ADOMH
+no recent news
+---------NA
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANA
+no recent news
+---------NCPL
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANCPL
+no recent news
+---------SST
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASST
+no recent news
+---------NCI
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANCI
+no recent news
+---------AIFU
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AAIFU
+no recent news
+---------OSCR
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AOSCR
+no recent news
+---------VENU
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AVENU
+no recent news
+---------ONEG
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AONEG
+no recent news
+---------NNNN
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANNNN
+no recent news
+---------OMCC
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AOMCC
+no recent news
+删除key: ['FLL']
+2025-06-20 16:59:19.478426
+StockTitan 获取 SSII 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/SSII/", waiting until "load"
+
+StockTitan 获取 HOVR 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/HOVR/", waiting until "load"
+
+Yahoo 获取 SSII 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/SSII/news/", waiting until "load"
+
+Yahoo 获取 HOVR 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/HOVR/news/", waiting until "load"
+
+StockTitan 获取 NA 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/NA/", waiting until "load"
+
+StockTitan 获取 NCPL 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/NCPL/", waiting until "load"
+
+Yahoo 获取 NA 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/NA/news/", waiting until "load"
+
+Yahoo 获取 NCPL 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/NCPL/news/", waiting until "load"
+
+StockTitan 获取 NNNN 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/NNNN/", waiting until "load"
+
+StockTitan 获取 OMCC 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+---------PLAG
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APLAG
+no recent news
+---------WLGS
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AWLGS
+no recent news
+---------GNS
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AGNS
+no recent news
+---------DFLI
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ADFLI
+no recent news
+删除key: []
+2025-06-20 18:01:19.703848
+StockTitan 获取 OMCC 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+StockTitan 获取 WLGS 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/WLGS/", waiting until "load"
+
+Yahoo 获取 WLGS 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/WLGS/news/", waiting until "load"
+
+Yahoo 获取 OMCC 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/OMCC/news/", waiting until "load"
+
+StockTitan 获取 BIYA 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/BIYA/", waiting until "load"
+
+StockTitan 获取 MULN 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/MULN/", waiting until "load"
+
+Yahoo 获取 MULN 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/MULN/news/", waiting until "load"
+
+Yahoo 获取 BIYA 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/BIYA/news/", waiting until "load"
+
+---------BLMZ
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ABLMZ
+no recent news
+---------BBGI
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ABBGI
+no recent news
+---------BIYA
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ABIYA
+no recent news
+---------MULN
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AMULN
+no recent news
+调度器启动，按 Ctrl+C 退出...
+2025-06-20 18:50:22.920403
+---------BIYA 68.78%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ABIYA
+no recent news
+---------DFLI 55.55%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ADFLI
+no recent news
+---------PCSA 28.97%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APCSA
+no recent news
+---------PMAX 18.85%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APMAX
+no recent news
+---------BBGI 18.45%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ABBGI
+no recent news
+---------GOVX 16.79%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AGOVX
+no recent news
+删除key: []
+2025-06-20 18:51:19.683086
+2025-06-20 18:51:23.887762
+---------GPUS 64.5%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AGPUS
+22 minutes ago
+Hyperscale Data Subsidiary Bitnile.com Accepting $TRUMP Meme Coin in its Social Casino
+超大规模数据子公司Bitnile.com在其社交娱乐场接受$ TRUMP Meme Coin
+---------INVZ 20.45%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AINVZ
+no recent news
+StockTitan 获取 OMCC 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+2025-06-20 18:52:22.016365
+---------GPUS
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AGPUS
+22 minutes ago
+Hyperscale Data Subsidiary Bitnile.com Accepting $TRUMP Meme Coin in its Social Casino
+超大规模数据子公司Bitnile.com在其社交娱乐场接受$ TRUMP Meme Coin
+删除key: []
+2025-06-20 18:53:19.154785
+2025-06-20 18:53:22.269491
+---------EPWK 16.67%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AEPWK
+StockTitan 获取 OMCC 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+no recent news
+2025-06-20 18:54:21.927349
+Yahoo 获取 OMCC 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/OMCC/news/", waiting until "load"
+
+删除key: []
+2025-06-20 18:55:19.718998
+2025-06-20 18:55:21.662442
+StockTitan 获取 OMCC 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+调度器已关闭
+---------EPWK
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AEPWK
+no recent news
+删除key: []
+2025-06-20 18:57:18.820833
+StockTitan 获取 OMCC 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+删除key: []
+2025-06-20 18:59:19.082507
+StockTitan 获取 OMCC 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+删除key: []
+2025-06-20 19:01:19.315247
+StockTitan 获取 OMCC 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+调度器启动，按 Ctrl+C 退出...
+2025-06-20 19:02:06.721533
+---------BIYA 69.98%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ABIYA
+no recent news
+---------GPUS 39.35%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AGPUS
+32 minutes ago
+Hyperscale Data Subsidiary Bitnile.com Accepting $TRUMP Meme Coin in its Social Casino
+超大规模数据子公司Bitnile.com在其社交娱乐场接受$ TRUMP Meme Coin
+---------DFLI 38.53%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ADFLI
+no recent news
+---------INVZ 18.94%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AINVZ
+no recent news
+---------PCSA 18.43%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APCSA
+no recent news
+2025-06-20 19:03:06.515500
+删除key: []
+2025-06-20 19:03:19.085396
+StockTitan 获取 OMCC 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+2025-06-20 19:04:06.625651
+2025-06-20 19:05:06.068016
+删除key: ['GOGO']
+2025-06-20 19:05:19.265294
+---------HOVR 21.05%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AHOVR
+no recent news
+StockTitan 获取 OMCC 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+2025-06-20 19:06:06.049075
+2025-06-20 19:07:06.280700
+删除key: ['AMZE', 'SSII', 'HOVR', 'PXLW', 'DOMH', 'NA', 'NCPL', 'SST', 'NCI', 'AIFU', 'OSCR', 'VENU', 'ONEG', 'NNNN', 'OMCC']
+2025-06-20 19:07:18.880211
+2025-06-20 19:08:06.177493
+删除key: ['PLAG', 'WLGS', 'GNS', 'DFLI']
+2025-06-20 19:08:19.345736
+2025-06-20 19:09:07.117150
+删除key: ['BLMZ', 'BBGI', 'BIYA', 'MULN']
+2025-06-20 19:09:18.687136
+2025-06-20 19:10:06.124304
+删除key: []
+2025-06-20 19:10:18.763344
+2025-06-20 19:11:06.207301
+删除key: []
+2025-06-20 19:11:18.960373
+2025-06-20 19:12:06.727906
+删除key: ['EPWK']
+2025-06-20 19:12:18.892986
+2025-06-20 19:13:06.353054
+删除key: []
+2025-06-20 19:13:19.369866
+2025-06-20 19:14:06.546851
+删除key: []
+2025-06-20 19:14:18.675853
+2025-06-20 19:15:07.401860
+删除key: []
+2025-06-20 19:15:20.851645
+2025-06-20 19:16:06.384139
+删除key: []
+2025-06-20 19:16:19.626613
+2025-06-20 19:17:06.104523
+删除key: []
+2025-06-20 19:17:19.073228
+2025-06-20 19:18:06.222305
+删除key: []
+2025-06-20 19:18:19.119625
+2025-06-20 19:19:06.290437
+删除key: []
+2025-06-20 19:19:19.350681
+2025-06-20 19:20:06.180240
+删除key: []
+2025-06-20 19:20:18.731129
+2025-06-20 19:21:06.191866
+删除key: []
+2025-06-20 19:21:19.690887
+2025-06-20 19:22:06.091697
+---------JFBR 32.87%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AJFBR
+5 minutes ago
+Jeffs’ Brands and Impact Acquisitions Receive Approval from TSX Venture Exchange for Fort Products’ Merger at a Valuation of up to Approximately $15 Million
+Jeffs的品牌和影响力收购获得TSX Venture Exchange的批准，用于Fort产品的合并，估值高达约1500万美元
+删除key: []
+2025-06-20 19:22:19.137680
+2025-06-20 19:23:06.238672
+删除key: []
+2025-06-20 19:23:18.885317
+2025-06-20 19:24:06.201371
+删除key: []
+2025-06-20 19:24:19.189784
+2025-06-20 19:25:06.892996
+删除key: []
+2025-06-20 19:25:18.731594
+2025-06-20 19:26:06.643016
+删除key: []
+2025-06-20 19:26:18.730438
+2025-06-20 19:27:06.210859
+删除key: []
+2025-06-20 19:27:19.079599
+2025-06-20 19:28:06.269957
+删除key: []
+2025-06-20 19:28:18.975303
+2025-06-20 19:29:06.257136
+删除key: []
+2025-06-20 19:29:19.308330
+2025-06-20 19:30:06.535282
+删除key: []
+2025-06-20 19:30:18.885592
+2025-06-20 19:31:06.084366
+删除key: []
+2025-06-20 19:31:18.784632
+2025-06-20 19:32:06.199039
+删除key: []
+2025-06-20 19:32:19.279415
+2025-06-20 19:33:06.255972
+删除key: []
+2025-06-20 19:33:19.050331
+2025-06-20 19:34:06.117578
+删除key: []
+2025-06-20 19:34:18.575933
+2025-06-20 19:35:06.993336
+删除key: []
+2025-06-20 19:35:20.357026
+2025-06-20 19:36:06.245972
+删除key: []
+2025-06-20 19:36:20.369260
+2025-06-20 19:37:06.192999
+删除key: []
+2025-06-20 19:37:18.573506
+2025-06-20 19:38:06.092743
+删除key: []
+2025-06-20 19:38:19.914189
+2025-06-20 19:39:06.075394
+删除key: []
+2025-06-20 19:39:18.772933
+2025-06-20 19:40:06.056811
+删除key: []
+2025-06-20 19:40:18.891853
+2025-06-20 19:41:06.100462
+删除key: []
+2025-06-20 19:41:19.429180
+2025-06-20 19:42:06.427268
+删除key: []
+2025-06-20 19:42:18.588367
+2025-06-20 19:43:06.259204
+删除key: []
+2025-06-20 19:43:18.649398
+2025-06-20 19:44:06.179729
+删除key: []
+2025-06-20 19:44:19.038393
+2025-06-20 19:45:06.123965
+删除key: []
+2025-06-20 19:45:18.580108
+2025-06-20 19:46:06.141142
+删除key: []
+2025-06-20 19:46:18.739161
+2025-06-20 19:47:06.320461
+删除key: []
+2025-06-20 19:47:19.398016
+2025-06-20 19:48:06.274422
+---------AIFF 34.0%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AAIFF
+3 minutes ago
+Firefly Neuroscience Researchers Uncover Powerful New Way of Objectively Measuring SCD, MCI, and Dementia in Alzheimer’s Patients
+萤火虫神经科学研究人员发现客观测量阿尔茨海默病患者SCD、MCI和痴呆症的强大新方法
+删除key: []
+2025-06-20 19:48:18.822422
+2025-06-20 19:49:06.647936
+删除key: []
+2025-06-20 19:49:18.726031
+2025-06-20 19:50:06.741002
+删除key: []
+2025-06-20 19:50:20.226669
+2025-06-20 19:51:06.120773
+删除key: []
+2025-06-20 19:51:18.531198
+2025-06-20 19:52:06.161168
+删除key: []
+2025-06-20 19:52:18.586051
+2025-06-20 19:53:06.067138
+删除key: []
+2025-06-20 19:53:18.875767
+2025-06-20 19:54:06.311009
+---------MITQ 19.33%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AMITQ
+3 minutes ago
+Moving iMage Technologies Secures $9M Contract to Install 150 Barco Laser Projectors Over Three Years
+Moving iMage Technologies获得900万美元合同，在三年内安装150台巴可激光投影仪
+删除key: []
+2025-06-20 19:54:18.723035
+2025-06-20 19:55:06.486225
+删除key: []
+2025-06-20 19:55:19.187322
+2025-06-20 19:56:06.188526
+删除key: []
+2025-06-20 19:56:19.267175
+2025-06-20 19:57:06.378311
+删除key: []
+2025-06-20 19:57:19.209300
+2025-06-20 19:58:06.089739
+删除key: []
+2025-06-20 19:58:18.617991
+2025-06-20 19:59:06.230833
+删除key: []
+2025-06-20 19:59:18.636834
+2025-06-20 20:00:06.347823
+删除key: []
+2025-06-20 20:00:19.523358
+2025-06-20 20:01:06.432826
+删除key: []
+2025-06-20 20:01:18.713895
+2025-06-20 20:02:06.264929
+删除key: []
+2025-06-20 20:02:18.802025
+2025-06-20 20:03:06.116930
+删除key: []
+2025-06-20 20:03:19.126515
+2025-06-20 20:04:06.194458
+---------GALT 18.24%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AGALT
+no recent news
+删除key: []
+2025-06-20 20:04:19.203328
+2025-06-20 20:05:06.258403
+删除key: []
+2025-06-20 20:05:20.137747
+StockTitan 获取 AIFF 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/AIFF/", waiting until "load"
+
+---------AIFF
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AAIFF
+20 minutes ago
+Firefly Neuroscience Researchers Uncover Powerful New Way of Objectively Measuring SCD, MCI, and Dementia in Alzheimer’s Patients
+2025-06-20 20:06:07.023619
+萤火虫神经科学研究人员发现客观测量阿尔茨海默病患者SCD、MCI和痴呆症的强大新方法
+删除key: []
+2025-06-20 20:06:18.594220
+2025-06-20 20:07:06.019728
+删除key: []
+2025-06-20 20:07:19.179660
+2025-06-20 20:08:06.260895
+删除key: []
+2025-06-20 20:08:19.833228
+2025-06-20 20:09:06.495417
+删除key: []
+2025-06-20 20:09:18.535625
+2025-06-20 20:10:06.054235
+删除key: []
+2025-06-20 20:10:18.825399
+2025-06-20 20:11:06.052849
+删除key: []
+2025-06-20 20:11:19.099069
+---------MITQ
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AMITQ
+20 minutes ago
+Moving iMage Technologies Secures $9M Contract to Install 150 Barco Laser Projectors Over Three Years
+Moving iMage Technologies获得900万美元合同，在三年内安装150台巴可激光投影仪
+2025-06-20 20:12:06.298765
+删除key: []
+2025-06-20 20:12:18.539285
+2025-06-20 20:13:06.660473
+删除key: []
+2025-06-20 20:13:18.900547
+2025-06-20 20:14:06.524228
+删除key: []
+2025-06-20 20:14:18.662343
+2025-06-20 20:15:06.629523
+删除key: []
+2025-06-20 20:15:19.158760
+2025-06-20 20:16:06.136216
+---------OSCR 15.08%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AOSCR
+no recent news
+删除key: []
+2025-06-20 20:16:18.542794
+2025-06-20 20:17:06.694446
+删除key: []
+2025-06-20 20:17:19.615954
+2025-06-20 20:18:06.636079
+删除key: []
+2025-06-20 20:18:18.694382
+2025-06-20 20:19:06.515714
+删除key: []
+2025-06-20 20:19:18.615765
+2025-06-20 20:20:06.358755
+删除key: []
+2025-06-20 20:20:20.042408
+2025-06-20 20:21:06.228663
+删除key: []
+2025-06-20 20:21:18.602208
+2025-06-20 20:22:06.321747
+删除key: []
+2025-06-20 20:23:06.139571
+删除key: []
+2025-06-20 20:23:19.691981
+2025-06-20 20:24:06.488531
+删除key: []
+2025-06-20 20:24:19.032889
+2025-06-20 20:25:06.149746
+删除key: []
+2025-06-20 20:25:18.658138
+2025-06-20 20:26:06.170258
+删除key: []
+2025-06-20 20:26:19.227232
+2025-06-20 20:27:06.205551
+删除key: []
+2025-06-20 20:27:18.924936
+2025-06-20 20:28:06.100194
+删除key: []
+2025-06-20 20:28:18.530739
+2025-06-20 20:29:06.495813
+删除key: []
+2025-06-20 20:29:19.135977
+2025-06-20 20:30:06.245156
+---------SMLR 15.37%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASMLR
+15 hours ago
+Semler Scientific® Appoints Joe Burnett as Director of Bitcoin Strategy; Targets Owning at Least 10,000 Bitcoins by Year-End 2025 and 105,000 by Year-End 2027
+Semler Scientific ®任命Joe Burnett为比特币策略总监；目标是到2025年底拥有至少10,000个比特币，到2027年底拥有至少105,000个比特币
+删除key: []
+2025-06-20 20:30:18.623354
+2025-06-20 20:31:06.617656
+删除key: []
+2025-06-20 20:31:19.141438
+2025-06-20 20:32:06.093683
+---------LUCY 68.42%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ALUCY
+删除key: []
+2025-06-20 20:32:18.785809
+2 minutes ago
+Innovative Eyewear Partners with Smartech to Showcase Reebok Smart Eyewear at Smartech's New Flagship Opening in Times Square
+创新眼镜与Smartech合作，在Smartech时代广场新旗舰店展示Reebok智能眼镜
+2025-06-20 20:33:06.217548
+删除key: []
+2025-06-20 20:33:18.739890
+2025-06-20 20:34:06.386689
+删除key: []
+2025-06-20 20:34:19.367996
+2025-06-20 20:35:06.255648
+删除key: []
+2025-06-20 20:35:18.520497
+2025-06-20 20:36:05.987828
+删除key: []
+2025-06-20 20:36:18.598488
+2025-06-20 20:37:06.145681
+---------AIM 36.07%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AAIM
+no recent news
+删除key: []
+2025-06-20 20:37:19.397053
+2025-06-20 20:38:06.252066
+删除key: []
+2025-06-20 20:38:18.599573
+2025-06-20 20:39:06.105883
+删除key: []
+2025-06-20 20:39:18.780975
+2025-06-20 20:40:06.089937
+删除key: []
+2025-06-20 20:40:19.318533
+2025-06-20 20:41:06.309174
+删除key: []
+2025-06-20 20:41:18.898136
+2025-06-20 20:42:06.792609
+删除key: []
+2025-06-20 20:42:18.919980
+2025-06-20 20:43:06.261979
+删除key: []
+2025-06-20 20:43:19.077256
+---------GRRR 15.58%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AGRRR
+no recent news
+2025-06-20 20:44:06.301500
+删除key: []
+2025-06-20 20:44:18.542065
+---------NTCL 27.21%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANTCL
+删除key: []
+2025-06-20 20:45:19.956636
+no recent news
+2025-06-20 20:46:06.341228
+删除key: []
+2025-06-20 20:46:18.628979
+删除key: []
+2025-06-20 20:47:18.738936
+2025-06-20 20:48:06.687591
+删除key: []
+2025-06-20 20:48:19.094829
+StockTitan 获取 LUCY 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/LUCY/", waiting until "load"
+
+---------LUCY
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ALUCY
+18 minutes ago
+Innovative Eyewear Partners with Smartech to Showcase Reebok Smart Eyewear at Smartech's New Flagship Opening in Times Square
+创新眼镜与Smartech合作，在Smartech时代广场新旗舰店展示Reebok智能眼镜
+---------SMLR
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASMLR
+16 hours ago
+Semler Scientific® Appoints Joe Burnett as Director of Bitcoin Strategy; Targets Owning at Least 10,000 Bitcoins by Year-End 2025 and 105,000 by Year-End 2027
+Semler Scientific ®任命Joe Burnett为比特币策略总监；目标是到2025年底拥有至少10,000个比特币，到2027年底拥有至少105,000个比特币
+---------ACTU 56.34%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AACTU
+4 minutes ago
+Actuate Therapeutics Reports Positive Biomarker and Machine Learning Data from Phase 2 Elraglusib Trial in First-Line Treatment of Metastatic Pancreatic Cancer at ASCO
+ACTUATE Therapeutics报告了来自ASCO转移性胰腺癌一线治疗2期Elraglusib试验的阳性生物标志物和机器学习数据
+删除key: []
+2025-06-20 20:49:18.672471
+2025-06-20 20:50:06.463140
+删除key: []
+2025-06-20 20:50:19.061916
+2025-06-20 20:51:06.536143
+删除key: []
+2025-06-20 20:51:19.001275
+2025-06-20 20:52:06.492177
+删除key: []
+2025-06-20 20:52:19.866936
+2025-06-20 20:53:06.056542
+删除key: []
+2025-06-20 20:53:18.572397
+2025-06-20 20:54:06.475021
+删除key: []
+2025-06-20 20:54:18.804253
+2025-06-20 20:55:06.431183
+删除key: []
+2025-06-20 20:55:19.766628
+---------AIM
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AAIM
+no recent news
+2025-06-20 20:56:06.433551
+删除key: []
+2025-06-20 20:56:18.577116
+2025-06-20 20:57:06.497396
+删除key: []
+2025-06-20 20:57:20.985494
+---------GRRR
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AGRRR
+no recent news
+删除key: []
+2025-06-20 20:58:18.595758
+删除key: []
+2025-06-20 20:59:18.911023
+删除key: []
+2025-06-20 21:00:18.982029
+删除key: []
+2025-06-20 21:01:18.584419
+删除key: []
+2025-06-20 21:02:20.229076
+---------NTCL
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANTCL
+no recent news
+删除key: []
+2025-06-20 21:03:18.641278
+删除key: []
+2025-06-20 21:04:18.594336
+删除key: []
+2025-06-20 21:05:19.132254
+删除key: ['AIM']
+2025-06-20 21:06:18.533828
+删除key: []
+2025-06-20 21:07:18.797249
+删除key: ['GRRR']
+2025-06-20 21:08:19.035512
+删除key: []
+2025-06-20 21:09:18.786487
+删除key: []
+2025-06-20 21:10:19.384027
+删除key: []
+2025-06-20 21:11:19.100274
+删除key: []
+2025-06-20 21:12:18.573214
+删除key: ['NTCL']
+2025-06-20 21:13:19.330087
+删除key: []
+2025-06-20 21:14:18.594227
+删除key: []
+2025-06-20 21:15:19.847312

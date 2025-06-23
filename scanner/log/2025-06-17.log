@@ -1,0 +1,558 @@
+调度器启动，按 Ctrl+C 退出...
+删除key: []
+2025-06-17 18:51:57.452832
+---------SLRX 96.77%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASLRX
+no recent news
+---------VERV 77.51%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AVERV
+7 minutes ago
+Lilly to acquire Verve Therapeutics to advance one-time treatments for people with high cardiovascular risk
+礼来收购Verve Therapeutics ，以推进高心血管风险患者的一次性治疗
+---------SAFX 66.97%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASAFX
+删除key: []
+2025-06-17 18:52:20.086361
+23 hours ago
+XCF Global Announces Appointment of New Board of Directors Following Business Combination
+XCF Global宣布在企业合并后任命新董事会
+---------BGSF 44.28%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ABGSF
+14 hours ago
+BGSF, Inc. Announces Definitive Agreement for INSPYR Solutions to Acquire Its Professional Division for $99 million
+BGSF, Inc.宣布与INSPYR Solutions达成最终协议，以9900万美元收购其专业部门
+---------INEO 33.33%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AINEO
+no recent news
+---------IMRX 32.28%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AIMRX
+52 minutes ago
+Immuneering Reports Positive Overall Survival Data for Atebimetinib (IMM-1-104) from Ongoing Phase 2a Trial in First-Line Pancreatic Cancer Patients
+免疫治疗报告了Atebimetinib (IMM-1-104)在一线胰腺癌患者中正在进行的2a期试验的阳性总体生存期数据
+---------XTIA 18.77%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AXTIA
+no recent news
+---------MINM 17.37%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AMINM
+no recent news
+---------HUSA 17.36%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AHUSA
+no recent news
+---------PRME 16.67%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APRME
+no recent news
+---------RBNE 16.3%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ARBNE
+21 hours ago
+Robin Energy Ltd. Announces Pricing of $5.1 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules
+Robin Energy Ltd.宣布根据纳斯达克规则在市场上定价510万美元的注册直接发行定价
+---------RELI 15.25%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ARELI
+14 hours ago
+Reliance Global Submits Request for Withdrawal of Form S-1 Registration Statement
+---------SLRX
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASLRX
+no recent news
+---------SAFX
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASAFX
+23 hours ago
+XCF Global Announces Appointment of New Board of Directors Following Business Combination
+XCF Global宣布在企业合并后任命新董事会
+---------VERV
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AVERV
+8 minutes ago
+Lilly to acquire Verve Therapeutics to advance one-time treatments for people with high cardiovascular risk
+Reliance Global提交撤销S-1表格登记声明的请求
+礼来收购Verve Therapeutics ，以推进高心血管风险患者的一次性治疗
+---------BGSF
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ABGSF
+14 hours ago
+BGSF, Inc. Announces Definitive Agreement for INSPYR Solutions to Acquire Its Professional Division for $99 million
+BGSF, Inc.宣布与INSPYR Solutions达成最终协议，以9900万美元收购其专业部门
+---------INEO
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AINEO
+no recent news
+---------MINM
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AMINM
+no recent news
+---------XTIA
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AXTIA
+no recent news
+---------RELI
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ARELI
+14 hours ago
+Reliance Global Submits Request for Withdrawal of Form S-1 Registration Statement
+删除key: []
+2025-06-17 18:53:54.764147
+Reliance Global提交撤销S-1表格登记声明的请求
+---------PRME
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APRME
+no recent news
+删除key: []
+2025-06-17 18:54:19.306885
+删除key: []
+2025-06-17 18:54:55.647861
+删除key: ['PXS']
+2025-06-17 18:55:20.202861
+删除key: []
+2025-06-17 18:55:54.228759
+删除key: []
+2025-06-17 18:56:19.048837
+删除key: []
+2025-06-17 18:56:54.395082
+删除key: []
+2025-06-17 18:57:20.072233
+删除key: []
+2025-06-17 18:57:54.635423
+StockTitan 获取 TCRT 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/TCRT/", waiting until "load"
+
+StockTitan 获取 AAOI 新闻时出错: Page.goto: net::ERR_CONNECTION_CLOSED at https://www.stocktitan.net/news/AAOI/
+Call log:
+  - navigating to "https://www.stocktitan.net/news/AAOI/", waiting until "load"
+
+删除key: []
+2025-06-17 18:58:54.481010
+删除key: ['BRN']
+2025-06-17 18:59:27.356371
+删除key: []
+2025-06-17 18:59:54.372535
+---------CERO
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ACERO
+no recent news
+---------CERO 67.3%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ACERO
+no recent news
+删除key: []
+2025-06-17 19:00:54.786207
+删除key: []
+2025-06-17 19:01:18.877431
+删除key: []
+2025-06-17 19:01:54.266953
+删除key: []
+2025-06-17 19:02:19.437283
+删除key: []
+2025-06-17 19:02:54.245618
+---------ACXP 36.76%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AACXP
+2 minutes ago
+Acurx Announces Publication in Lancet Microbe of Phase 2b Clinical Trial Data for Ibezapolstat in CDI
+Acurx宣布在《柳叶刀》杂志上发表Ibezapolstat用于CDI的2b期临床试验数据
+删除key: ['SLRX', 'INEO', 'XTIA', 'MINM', 'HUSA', 'PRME']
+2025-06-17 19:03:54.095162
+删除key: []
+2025-06-17 19:04:19.159025
+删除key: []
+2025-06-17 19:04:54.187249
+---------BIOA 17.58%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ABIOA
+no recent news
+---------ACXP
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AACXP
+4 minutes ago
+Acurx Announces Publication in Lancet Microbe of Phase 2b Clinical Trial Data for Ibezapolstat in CDI
+Acurx宣布在《柳叶刀》杂志上发表Ibezapolstat用于CDI的2b期临床试验数据
+---------BIOA
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ABIOA
+no recent news
+删除key: []
+2025-06-17 19:05:54.468633
+---------ONCO 47.65%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AONCO
+22 hours ago
+Onconetix, Inc. Announces Positive Decision by Nasdaq Hearings Panel
+Onconetix, Inc.宣布纳斯达克听证会小组的积极决定
+删除key: []
+2025-06-17 19:06:20.322159
+删除key: []
+2025-06-17 19:06:54.808053
+---------GBR 15.87%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AGBR
+no recent news
+---------ONCO
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AONCO
+22 hours ago
+Onconetix, Inc. Announces Positive Decision by Nasdaq Hearings Panel
+Onconetix, Inc.宣布纳斯达克听证会小组的积极决定
+删除key: []
+2025-06-17 19:07:54.371181
+删除key: ['MFI', 'ZDGE', 'VRA', 'JVA', 'NAMM', 'WKSP', 'ARQQ', 'TSSI', 'UCAR', 'TCRT', 'URGN', 'FCEL', 'AAOI', 'OSS', 'KIDZ']
+2025-06-17 19:08:19.065959
+删除key: []
+2025-06-17 19:08:54.414000
+删除key: ['SLRX', 'INEO', 'MINM', 'XTIA', 'PRME']
+2025-06-17 19:09:19.356692
+删除key: []
+2025-06-17 19:09:54.471114
+删除key: []
+2025-06-17 19:10:19.506248
+删除key: ['CERO']
+2025-06-17 19:10:55.040889
+删除key: []
+2025-06-17 19:11:19.255471
+删除key: []
+2025-06-17 19:11:55.003193
+删除key: []
+2025-06-17 19:12:19.098905
+删除key: []
+2025-06-17 19:12:54.707066
+删除key: []
+2025-06-17 19:13:19.941743
+删除key: []
+2025-06-17 19:13:54.517665
+删除key: ['CERO']
+2025-06-17 19:14:19.272141
+删除key: []
+2025-06-17 19:14:54.297705
+删除key: []
+2025-06-17 19:15:19.404567
+删除key: ['BIOA']
+2025-06-17 19:15:54.766038
+删除key: []
+2025-06-17 19:16:20.333350
+删除key: []
+2025-06-17 19:16:54.444198
+删除key: ['BIOA']
+2025-06-17 19:17:19.286232
+删除key: ['GBR']
+2025-06-17 19:17:54.590289
+删除key: []
+2025-06-17 19:18:19.372668
+删除key: []
+2025-06-17 19:18:54.863746
+删除key: []
+2025-06-17 19:19:19.438603
+删除key: []
+2025-06-17 19:19:54.355036
+删除key: []
+2025-06-17 19:20:19.218553
+删除key: []
+2025-06-17 19:20:54.147535
+删除key: []
+2025-06-17 19:21:19.328182
+删除key: []
+2025-06-17 19:21:54.197147
+删除key: []
+2025-06-17 19:22:19.163451
+删除key: []
+2025-06-17 19:22:54.695500
+---------AIHS 17.3%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AAIHS
+no recent news
+删除key: []
+2025-06-17 19:23:19.119315
+---------AIHS
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AAIHS
+no recent news
+删除key: []
+2025-06-17 19:23:54.521614
+删除key: []
+2025-06-17 19:24:19.383225
+---------RANI
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ARANI
+no recent news
+删除key: []
+2025-06-17 19:24:55.765965
+---------RANI 15.3%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ARANI
+no recent news
+删除key: []
+2025-06-17 19:25:19.809264
+删除key: []
+2025-06-17 19:25:54.176607
+删除key: []
+2025-06-17 19:26:19.367238
+删除key: []
+2025-06-17 19:26:54.404110
+删除key: []
+2025-06-17 19:27:19.110935
+删除key: []
+2025-06-17 19:27:54.385574
+删除key: []
+2025-06-17 19:28:19.501284
+删除key: []
+2025-06-17 19:28:55.113755
+删除key: []
+2025-06-17 19:29:20.105802
+删除key: []
+2025-06-17 19:29:54.421883
+删除key: []
+2025-06-17 19:30:19.635442
+删除key: []
+2025-06-17 19:30:54.145953
+删除key: []
+2025-06-17 19:31:21.146987
+---------VTYX
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AVTYX
+31 minutes ago
+Ventyx Biosciences Announces Positive Top-Line Data from its Phase 2a Safety and Biomarker Trial Evaluating VTX3232 in Patients with Early-Stage Parkinson’s Disease
+Ventyx Biosciences宣布其2a期安全性和生物标志物试验评估VTX3232治疗早期帕金森病患者的阳性顶线数据
+删除key: []
+2025-06-17 19:31:55.997825
+---------VTYX 15.35%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AVTYX
+32 minutes ago
+Ventyx Biosciences Announces Positive Top-Line Data from its Phase 2a Safety and Biomarker Trial Evaluating VTX3232 in Patients with Early-Stage Parkinson’s Disease
+Ventyx Biosciences宣布其2a期安全性和生物标志物试验评估VTX3232治疗早期帕金森病患者的阳性顶线数据
+删除key: []
+删除key: []
+2025-06-17 19:32:54.205976
+---------PRPH 36.47%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APRPH
+3 minutes ago
+ProPhase Labs Announces Successful Study Demonstrating Performance of BE-Smart™ Test in Detecting Esophageal Cancer
+ProPhase Labs宣布成功研究证明BE-Smart™检测在检测食管癌方面的性能
+删除key: []
+2025-06-17 19:33:19.653394
+---------PRPH
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APRPH
+3 minutes ago
+ProPhase Labs Announces Successful Study Demonstrating Performance of BE-Smart™ Test in Detecting Esophageal Cancer
+ProPhase Labs宣布成功研究证明BE-Smart™检测在检测食管癌方面的性能
+删除key: ['AIHS']
+2025-06-17 19:33:54.166190
+删除key: []
+2025-06-17 19:34:23.667296
+删除key: []
+2025-06-17 19:34:54.337732
+删除key: ['AIHS']
+2025-06-17 19:35:19.019981
+删除key: ['RANI']
+2025-06-17 19:35:54.380370
+删除key: ['RANI']
+2025-06-17 19:36:19.200638
+删除key: []
+2025-06-17 19:36:54.923840
+删除key: []
+2025-06-17 19:37:19.969977
+删除key: []
+2025-06-17 19:37:54.457760
+---------PCT 15.84%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APCT
+23 minutes ago
+PureCycle Announces $300 Million Capital Raise; Outlines Growth Plan for One Billion Pounds of Installed Capacity with Projected EBITDA of $600 Million Per Year By 2030
+PureCycle宣布融资3亿美元；概述10亿磅装机容量的增长计划，预计到2030年每年EBITDA为6亿美元
+删除key: []
+2025-06-17 19:38:19.293859
+---------PCT
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APCT
+23 minutes ago
+PureCycle Announces $300 Million Capital Raise; Outlines Growth Plan for One Billion Pounds of Installed Capacity with Projected EBITDA of $600 Million Per Year By 2030
+PureCycle宣布融资3亿美元；概述10亿磅装机容量的增长计划，预计到2030年每年EBITDA为6亿美元
+删除key: []
+2025-06-17 19:38:54.349912
+删除key: []
+2025-06-17 19:39:19.217499
+删除key: []
+2025-06-17 19:39:55.065415
+删除key: []
+2025-06-17 19:40:18.941073
+删除key: []
+2025-06-17 19:40:54.571496
+删除key: []
+2025-06-17 19:41:19.795177
+调度器已关闭
+删除key: []
+2025-06-17 19:42:19.331837
+删除key: []
+2025-06-17 19:44:20.954391
+删除key: []
+2025-06-17 20:02:20.552841
+---------BKYI
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ABKYI
+4 minutes ago
+International Defense Ministry Awards BIO-key over $600K in Follow-On Orders for Secure Biometric Access to Critical Information
+国际国防部授予生物识别关键信息安全访问后续订单超过60万美元的BIO-key
+删除key: []
+2025-06-17 20:03:20.036531
+---------MOBX
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AMOBX
+1 hour ago
+Mobix Labs Sees Strong Defense Sector Momentum and Continued Growth in Customer Bookings
+Mobix Labs看到强劲的国防部门势头和客户预订的持续增长
+删除key: []
+2025-06-17 20:04:19.037914
+---------AZTR
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AAZTR
+2 minutes ago
+Azitra Reports Promising Safety Data from Phase 1b Trial in Netherton Syndrome
+Azitra报告了来自Netherton综合征1b期试验的有希望的安全性数据
+---------PBM
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APBM
+4 minutes ago
+Psyence Biomed Regains Full Compliance with NASDAQ Continued Listing Requirements
+Psyence Biomed重新完全符合纳斯达克持续上市要求
+删除key: []
+2025-06-17 20:05:19.354744
+删除key: []
+2025-06-17 20:06:19.325970
+删除key: []
+2025-06-17 20:07:19.636800
+删除key: []
+2025-06-17 20:24:20.166161
+---------PSHG
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APSHG
+4 minutes ago
+Performance Shipping Inc. Secures Long-Term Time Charter Contract at US$23,750 Per Day With Mercuria for LR1 Newbuilding Tanker
+Performance Shipping Inc.以每天23,750美元的价格与Mercuria签订LR1新造油轮的长期租船合同
+删除key: []
+2025-06-17 20:41:19.455221
+---------FGL
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AFGL
+11 minutes ago
+Founder Group Signs Memorandum of Understanding with GCL Systems Integration Technology Co., Ltd. to Cooperate on Renewable Energy Projects Valued at up to USD $220 Million
+翻译发生错误: Expecting value: line 1 column 1 (char 0)
+删除key: []
+2025-06-17 20:58:19.406469
+StockTitan 获取 INVZ 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/INVZ/", waiting until "load"
+
+Yahoo 获取 INVZ 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/INVZ/news/", waiting until "load"
+
+---------INVZ
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AINVZ
+no recent news
+删除key: []
+2025-06-17 21:32:20.817800
+---------FEIM
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AFEIM
+no recent news
+---------APPS
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AAPPS
+17 hours ago
+Digital Turbine Reports Fiscal 2025 Fourth Quarter and Fiscal Year 2025 Financial Results
+数字涡轮机公布2025财年第四季度和2025财年财务业绩
+---------CGTL
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ACGTL
+no recent news
+---------EDIT
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AEDIT
+no recent news
+删除key: []
+2025-06-17 21:44:19.079796
+---------GEOS
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AGEOS
+17 hours ago
+Geospace Technologies Corporation Receives Permanent Reservoir Monitoring Contract From Petrobras
+Geospace Technologies Corporation从巴西国家石油公司获得永久储层监测合同
+---------MCTR
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AMCTR
+no recent news
+---------KNW
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AKNW
+no recent news
+---------NTLA
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANTLA
+no recent news
+删除key: []
+2025-06-17 21:45:19.077123
+删除key: []
+2025-06-17 21:46:19.498700
+删除key: []
+2025-06-17 21:47:19.439366
+删除key: []
+2025-06-17 22:05:19.267533
+StockTitan 获取 INVZ 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/INVZ/", waiting until "load"
+
+StockTitan 获取 FEIM 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/FEIM/", waiting until "load"
+
+Yahoo 获取 FEIM 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/FEIM/news/", waiting until "load"
+
+---------EYEN
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AEYEN
+no recent news
+---------SMX
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASMX
+no recent news
+---------FLNC
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AFLNC
+no recent news
+---------LVWR
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ALVWR
+no recent news
+删除key: []
+2025-06-17 22:24:18.972137
+StockTitan 获取 FLNC 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/FLNC/", waiting until "load"
+
+StockTitan 获取 LVWR 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/LVWR/", waiting until "load"
+
+Yahoo 获取 LVWR 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/LVWR/news/", waiting until "load"
+
+Yahoo 获取 FLNC 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/FLNC/news/", waiting until "load"
+
+---------TGE
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ATGE
+no recent news
+---------WTF
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AWTF
+no recent news
+---------PACS
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APACS
+2 hours ago
+Land & Buildings Details Why National Healthcare Corp. Could Lose Big as Lease Negotiation with National Health Investors Progresses
+土地和建筑物细节为什么随着与国家卫生投资者的租赁谈判取得进展，国家卫生保健公司可能会损失惨重
+删除key: []
+2025-06-17 22:42:20.059708
+---------MSW
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AMSW
+no recent news
+---------OCX
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AOCX
+no recent news
+删除key: []
+2025-06-17 22:44:19.104558
+StockTitan 获取 CGTL 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/CGTL/", waiting until "load"
+
+StockTitan 获取 EDIT 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/EDIT/", waiting until "load"
+
+Yahoo 获取 EDIT 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/EDIT/news/", waiting until "load"
+
+Yahoo 获取 CGTL 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/CGTL/news/", waiting until "load"
+
+删除key: []
+2025-06-17 23:18:20.479916
+---------GALT
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AGALT
+no recent news
+删除key: ['INVZ']
+2025-06-17 23:19:20.511895
+StockTitan 获取 MSW 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/MSW/", waiting until "load"
+
+StockTitan 获取 OCX 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/OCX/", waiting until "load"
+
+---------BRLS
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ABRLS
+no recent news
+---------LUD
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ALUD
+no recent news

@@ -1,0 +1,18 @@
+删除key: []
+2025-06-19 23:24:20.585874
+StockTitan 获取 AMZE 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/AMZE/", waiting until "load"
+
+StockTitan 获取 SSII 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/SSII/", waiting until "load"
+
+Yahoo 获取 SSII 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/SSII/news/", waiting until "load"
+
+Yahoo 获取 AMZE 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/AMZE/news/", waiting until "load"
+

@@ -1,0 +1,571 @@
+删除key: []
+2025-06-23 17:18:19.248197
+StockTitan 获取 DHAI 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/DHAI/", waiting until "load"
+
+StockTitan 获取 PET 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/PET/", waiting until "load"
+
+Yahoo 获取 PET 新闻时出错: Page.goto: net::ERR_NETWORK_CHANGED at https://finance.yahoo.com/quote/PET/news/
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/PET/news/", waiting until "load"
+
+Yahoo 获取 DHAI 新闻时出错: Page.goto: net::ERR_NETWORK_CHANGED at https://finance.yahoo.com/quote/DHAI/news/
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/DHAI/news/", waiting until "load"
+
+StockTitan 获取 ZETA 新闻时出错: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.stocktitan.net/news/ZETA/
+Call log:
+  - navigating to "https://www.stocktitan.net/news/ZETA/", waiting until "load"
+
+Yahoo 获取 ZETA 新闻时出错: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://finance.yahoo.com/quote/ZETA/news/
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/ZETA/news/", waiting until "load"
+
+---------DHAI
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ADHAI
+no recent news
+---------PET
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APET
+no recent news
+---------ZETA
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AZETA
+no recent news
+删除key: []
+2025-06-23 21:37:21.732877
+调度器启动，按 Ctrl+C 退出...
+2025-06-23 21:38:08.049822
+---------OP 72.22%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AOP
+no recent news
+---------HUSA 64.86%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AHUSA
+no recent news
+---------SPTN 49.15%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASPTN
+1 hour ago
+C&S Wholesale Grocers to Acquire SpartanNash for $26.90 per Share in Cash
+C&S批发杂货商以每股26.90美元的现金收购SpartanNash
+---------INDO 43.48%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AINDO
+StockTitan 获取 PBBK 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+no recent news
+---------TMDE 41.81%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ATMDE
+StockTitan 获取 SLDE 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+no recent news
+---------RBNE 35.46%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ARBNE
+no recent news
+---------WFF 32.67%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AWFF
+no recent news
+---------FBRX 28.44%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AFBRX
+2 hours ago
+Forte Biosciences Announces Positive Data in FB102 Celiac Disease Phase 1B Study
+Forte Biosciences宣布FB102乳糜泻1B期研究的阳性数据
+---------EYEN 28.33%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AEYEN
+1 hour ago
+Eyenovia Announces Closing of $50 Million Private Placement, Successful Accumulation of More Than One Million HYPE Tokens, and Update on its Optejet Development Program
+Eyenovia宣布完成5000万美元私募，成功积累超过100万个HYPE代币，并更新其Optejet开发计划
+---------GEOS 22.72%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AGEOS
+no recent news
+---------CRMD 21.09%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ACRMD
+2 hours ago
+CorMedix inc. Announces Customer Implementation
+CorMedix inc.宣布客户实施
+---------PHOE 18.34%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APHOE
+no recent news
+---------MIND 17.81%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AMIND
+no recent news
+---------MXC 17.58%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AMXC
+no recent news
+---------MARPS 15.78%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AMARPS
+no recent news
+---------USEG 15.34%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AUSEG
+Yahoo 获取 SLDE 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/SLDE/news/", waiting until "load"
+
+---------NXTT
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANXTT
+no recent news
+---------CTOR
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ACTOR
+no recent news
+---------NEPH
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANEPH
+no recent news
+---------IMDX
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AIMDX
+no recent news
+---------CTNM
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ACTNM
+no recent news
+---------BASE
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ABASE
+no recent news
+---------SDM
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASDM
+no recent news
+---------VLCN
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AVLCN
+no recent news
+---------ICCC
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AICCC
+no recent news
+---------SGMT
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASGMT
+no recent news
+---------SYNX
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASYNX
+no recent news
+---------NCT
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANCT
+no recent news
+---------INLX
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AINLX
+no recent news
+---------SWIN
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASWIN
+no recent news
+---------KBSX
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AKBSX
+no recent news
+---------SNYR
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASNYR
+no recent news
+---------OCG
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AOCG
+no recent news
+---------NWTN
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANWTN
+no recent news
+---------CREV
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ACREV
+no recent news
+---------FBRX
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AFBRX
+2 hours ago
+Forte Biosciences Announces Positive Data in FB102 Celiac Disease Phase 1B Study
+Forte Biosciences宣布FB102乳糜泻1B期研究的阳性数据
+---------ISPO
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AISPO
+no recent news
+---------APYX
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AAPYX
+no recent news
+---------PBBK
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APBBK
+no recent news
+---------TSAT
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ATSAT
+no recent news
+---------SLDE
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASLDE
+no recent news
+no recent news
+2025-06-23 21:40:07.583624
+删除key: []
+2025-06-23 21:40:19.114371
+---------SKYE 17.13%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASKYE
+2 hours ago
+Skye Bioscience Shares Nimacimab “Anatomy of Progress” Video Series and Highlights Preclinical CB1 Antibody Data Presented at the American Diabetes Association’s 85th Scientific Sessions
+StockTitan 获取 PBBK 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+Skye Bioscience分享Nimacimab “进展剖析”视频系列，并重点介绍在美国糖尿病协会第85届科学会议上展示的临床前CB1抗体数据
+StockTitan 获取 SLDE 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+2025-06-23 21:42:07.931150
+Yahoo 获取 SLDE 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/SLDE/news/", waiting until "load"
+
+删除key: []
+2025-06-23 21:43:19.534221
+2025-06-23 21:44:08.252407
+StockTitan 获取 PBBK 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+StockTitan 获取 SLDE 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+2025-06-23 21:46:07.957052
+删除key: []
+2025-06-23 21:46:19.269237
+---------SST 21.52%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASST
+no recent news
+---------LGL 20.72%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ALGL
+no recent news
+StockTitan 获取 PBBK 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+StockTitan 获取 SLDE 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+Yahoo 获取 SLDE 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("ul.stream-items") to be visible
+
+Yahoo 获取 PBBK 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("ul.stream-items") to be visible
+
+调度器已关闭
+---------WFF
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AWFF
+no recent news
+---------SPTN
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASPTN
+1 hour ago
+C&S Wholesale Grocers to Acquire SpartanNash for $26.90 per Share in Cash
+C&S批发杂货商以每股26.90美元的现金收购SpartanNash
+---------CRMD
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ACRMD
+2 hours ago
+CorMedix inc. Announces Customer Implementation
+调度器启动，按 Ctrl+C 退出...
+CorMedix inc.宣布客户实施
+删除key: []
+删除key: []
+调度器启动，按 Ctrl+C 退出...
+删除key: []
+调度器启动，按 Ctrl+C 退出...
+2025-06-23 21:50:36.379518
+---------CDTX 87.01%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ACDTX
+2 hours ago
+Cidara Therapeutics Announces Positive Topline Results from its Phase 2b NAVIGATE Trial Evaluating CD388, a Non-Vaccine Preventative of Seasonal Influenza
+Cidara Therapeutics宣布其2b期NAVIGATE试验评估CD388 （一种预防季节性流感的非疫苗）的积极顶线结果
+---------OP 63.54%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AOP
+no recent news
+---------SPTN 49.21%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASPTN
+1 hour ago
+C&S Wholesale Grocers to Acquire SpartanNash for $26.90 per Share in Cash
+C&S批发杂货商以每股26.90美元的现金收购SpartanNash
+---------HUSA 46.52%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AHUSA
+no recent news
+---------TMDE 35.08%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ATMDE
+no recent news
+---------TPET 35.03%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ATPET
+no recent news
+---------SST 33.93%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASST
+no recent news
+---------INDO 33.79%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AINDO
+删除key: []
+2025-06-23 21:51:19.600043
+no recent news
+---------RBNE 26.96%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ARBNE
+no recent news
+---------GEOS 25.46%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AGEOS
+no recent news
+---------EYEN 25.42%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AEYEN
+1 hour ago
+Eyenovia Announces Closing of $50 Million Private Placement, Successful Accumulation of More Than One Million HYPE Tokens, and Update on its Optejet Development Program
+Eyenovia宣布完成5000万美元私募，成功积累超过100万个HYPE代币，并更新其Optejet开发计划
+---------MIND 25.04%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AMIND
+no recent news
+---------LGL 22.67%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ALGL
+no recent news
+---------FBRX 22.03%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AFBRX
+2 hours ago
+Forte Biosciences Announces Positive Data in FB102 Celiac Disease Phase 1B Study
+Forte Biosciences宣布FB102乳糜泻1B期研究的阳性数据
+---------SKYE 19.39%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASKYE
+2 hours ago
+Skye Bioscience Shares Nimacimab “Anatomy of Progress” Video Series and Highlights Preclinical CB1 Antibody Data Presented at the American Diabetes Association’s 85th Scientific Sessions
+Skye Bioscience分享Nimacimab “进展剖析”视频系列，并重点介绍在美国糖尿病协会第85届科学会议上展示的临床前CB1抗体数据
+---------CRMD 18.99%
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ACRMD
+2 hours ago
+CorMedix inc. Announces Customer Implementation
+翻译发生错误: Expecting value: line 1 column 1 (char 0)
+StockTitan 获取 PBBK 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+StockTitan 获取 SLDE 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+Yahoo 获取 SLDE 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/SLDE/news/", waiting until "load"
+
+---------SKYE
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASKYE
+2 hours ago
+Skye Bioscience Shares Nimacimab “Anatomy of Progress” Video Series and Highlights Preclinical CB1 Antibody Data Presented at the American Diabetes Association’s 85th Scientific Sessions
+Skye Bioscience分享Nimacimab “进展剖析”视频系列，并重点介绍在美国糖尿病协会第85届科学会议上展示的临床前CB1抗体数据
+删除key: []
+2025-06-23 21:54:19.277931
+StockTitan 获取 PBBK 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+StockTitan 获取 SLDE 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+Yahoo 获取 PBBK 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/PBBK/news/", waiting until "load"
+
+---------MIND
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AMIND
+no recent news
+删除key: []
+删除key: []
+2025-06-23 21:58:19.204016
+StockTitan 获取 PBBK 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+StockTitan 获取 SLDE 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+Yahoo 获取 SLDE 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/SLDE/news/", waiting until "load"
+
+删除key: []
+2025-06-23 22:01:19.506924
+StockTitan 获取 PBBK 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+StockTitan 获取 SLDE 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+Yahoo 获取 SLDE 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/SLDE/news/", waiting until "load"
+
+删除key: []
+2025-06-23 22:04:19.233903
+StockTitan 获取 PBBK 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+StockTitan 获取 SLDE 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+---------CDTX
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ACDTX
+3 hours ago
+Cidara Therapeutics Announces Positive Topline Results from its Phase 2b NAVIGATE Trial Evaluating CD388, a Non-Vaccine Preventative of Seasonal Influenza
+Cidara Therapeutics宣布其2b期NAVIGATE试验评估CD388 （一种预防季节性流感的非疫苗）的积极顶线结果
+---------LGL
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ALGL
+no recent news
+删除key: []
+2025-06-23 22:06:19.552769
+StockTitan 获取 PBBK 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+StockTitan 获取 SLDE 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+删除key: ['DHAI', 'PET', 'ZETA']
+2025-06-23 22:09:19.532224
+StockTitan 获取 PBBK 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+StockTitan 获取 SLDE 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+删除key: ['NXTT', 'CTOR', 'NEPH', 'IMDX', 'CTNM', 'BASE', 'SDM', 'VLCN', 'ICCC', 'SGMT', 'SYNX', 'NCT', 'INLX', 'SWIN', 'KBSX', 'SNYR', 'OCG', 'NWTN', 'CREV', 'ISPO', 'APYX', 'PBBK', 'TSAT', 'SLDE']
+2025-06-23 22:11:18.857811
+删除key: []
+2025-06-23 22:12:19.058844
+---------LINK
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ALINK
+no recent news
+删除key: []
+2025-06-23 22:13:18.561408
+删除key: ['WFF']
+2025-06-23 22:14:18.600368
+删除key: []
+2025-06-23 22:15:19.184846
+删除key: ['MIND']
+2025-06-23 22:16:19.837786
+删除key: []
+2025-06-23 22:17:18.560526
+删除key: []
+2025-06-23 22:18:19.086279
+---------ZEO
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AZEO
+no recent news
+删除key: ['LGL']
+2025-06-23 22:19:18.950061
+删除key: []
+2025-06-23 22:20:18.570740
+删除key: []
+2025-06-23 22:21:19.119670
+删除key: []
+2025-06-23 22:22:18.838720
+删除key: ['LINK']
+2025-06-23 22:23:18.513842
+删除key: []
+2025-06-23 22:24:19.406263
+---------EPSM
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AEPSM
+no recent news
+删除key: []
+2025-06-23 22:25:18.594473
+删除key: []
+2025-06-23 22:26:18.595650
+删除key: []
+2025-06-23 22:27:20.806138
+删除key: []
+2025-06-23 22:28:19.829608
+删除key: ['ZEO']
+2025-06-23 22:29:18.626954
+删除key: []
+2025-06-23 22:30:19.402140
+删除key: []
+2025-06-23 22:31:19.367104
+删除key: []
+2025-06-23 22:32:18.615677
+删除key: []
+2025-06-23 22:33:19.072797
+---------SANA
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASANA
+28 minutes ago
+Sana Biotechnology Announces Positive Six-Month Clinical Results from Type 1 Diabetes Study of Islet Cell Transplantation Without Immunosuppression
+SANA Biotechnology宣布无免疫抑制的胰岛细胞移植1型糖尿病研究的6个月阳性临床结果
+删除key: []
+2025-06-23 22:34:18.981942
+删除key: ['EPSM']
+2025-06-23 22:35:18.587616
+删除key: []
+2025-06-23 22:36:19.032337
+删除key: []
+2025-06-23 22:37:18.549479
+删除key: []
+2025-06-23 22:38:18.716575
+删除key: []
+2025-06-23 22:39:19.244321
+---------RFIL
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ARFIL
+3 hours ago
+RF Industries Announces $1.7 Million in Follow-On Orders from Tier 1 Wireless Carrier Customer
+RF Industries宣布来自一级无线运营商客户的170万美元后续订单
+删除key: []
+2025-06-23 22:40:18.911109
+删除key: []
+2025-06-23 22:41:20.495075
+删除key: []
+2025-06-23 22:42:19.311673
+删除key: []
+2025-06-23 22:43:18.794211
+删除key: []
+2025-06-23 22:44:19.337664
+---------CMTL
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ACMTL
+no recent news
+删除key: []
+2025-06-23 22:45:18.717433
+删除key: []
+2025-06-23 22:46:19.326155
+删除key: []
+2025-06-23 22:47:18.923591
+删除key: []
+2025-06-23 22:48:20.064016
+---------NSYS
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANSYS
+no recent news
+删除key: []
+2025-06-23 22:49:18.722191
+删除key: []
+2025-06-23 22:50:18.764253
+删除key: []
+2025-06-23 22:51:19.310916
+删除key: []
+2025-06-23 22:54:19.203018
+删除key: []
+2025-06-23 22:55:19.552385
+删除key: []
+2025-06-23 22:56:18.712188
+删除key: ['CMTL']
+2025-06-23 22:57:19.556282
+删除key: []
+2025-06-23 22:58:18.601247
+删除key: []
+2025-06-23 22:59:18.752488
+删除key: []
+2025-06-23 23:00:19.123468
+删除key: ['NSYS']
+2025-06-23 23:01:19.032572
+删除key: []
+2025-06-23 23:02:18.631062
+删除key: []
+2025-06-23 23:03:19.071843
+StockTitan 获取 IQST 新闻时出错: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.stocktitan.net/news/IQST/", waiting until "load"
+
+Yahoo 获取 IQST 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/IQST/news/", waiting until "load"
+
+---------IQST
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AIQST
+no recent news
+删除key: []
+2025-06-23 23:05:20.438394
+删除key: []
+2025-06-23 23:06:18.610131
+删除key: []
+2025-06-23 23:07:19.496403
+删除key: []
+2025-06-23 23:08:19.356047
