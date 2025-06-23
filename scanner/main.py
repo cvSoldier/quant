@@ -1,9 +1,11 @@
+import asyncio
 from datetime import datetime, time
 from apscheduler.schedulers.blocking import BlockingScheduler
 from datetime import datetime
 from use_request import get_request
 import redirect_print
 from finance_pachong import get_news_data
+from playwright_crawler import get_news_data_async
 from googletrans import Translator
 from translate import Translator
 
@@ -51,7 +53,7 @@ def target(is_pre):
     result = []
     for key, val in arr_2d[CURENT_IDX].items():
         if key not in already_in_stock_name:
-            result.append((key, val[0]))
+            result.append(key)
         else:
             order_arr_2d = reorder_array(arr_2d, CURENT_IDX)
             # TODO
@@ -59,8 +61,8 @@ def target(is_pre):
     # 获取当前时间
     now = datetime.now()
     print(now)
-    for stock_name in watch_list.keys():
-        news_data = get_news_data(stock_name)
+    stock_and_news = asyncio.run(get_news_data_async(watch_list.keys()))
+    for stock_name, news_data in stock_and_news.items():
         # 是几分钟前的消息
         if news_data and news_data['time'] and 'min' in news_data['time']:
             print_stock_name(stock_name)
@@ -71,10 +73,11 @@ def target(is_pre):
             del watch_list[stock_name]
         else:
             watch_list[stock_name] = watch_list[stock_name] - 1
-    for stock_name, change in result:
-        print_stock_name(f'{stock_name} {change}%')
+    now_stock_and_news = asyncio.run(get_news_data_async(result))
+    for stock_name, news_data in now_stock_and_news.items():
+        print_stock_name(f'{stock_name}')
+        # print_stock_name(f'{stock_name} {change}%')
         print('https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3A' + stock_name)
-        news_data = get_news_data(stock_name)
         # 是几分钟前的消息
         if news_data and news_data['time'] and ('min' in news_data['time'] or 'hour' in news_data['time']):
             print(news_data['time'])

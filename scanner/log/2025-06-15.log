@@ -1,0 +1,103 @@
+调度器启动，按 Ctrl+C 退出...
+删除key: []
+2025-06-15 22:23:19.819702
+StockTitan 获取 CCCM 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+Yahoo 获取 CCCM 新闻时出错: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://finance.yahoo.com/quote/CCCM/news/", waiting until "load"
+
+---------RBNE
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ARBNE
+no recent news
+---------HUSA
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AHUSA
+no recent news
+---------NEON
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANEON
+no recent news
+---------ICON
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AICON
+no recent news
+---------USEG
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AUSEG
+no recent news
+---------INDO
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AINDO
+no recent news
+---------MXC
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AMXC
+no recent news
+---------KLXE
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AKLXE
+no recent news
+---------CRML
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ACRML
+no recent news
+---------BDMD
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ABDMD
+no recent news
+---------RCON
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ARCON
+no recent news
+---------CCCM
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ACCCM
+no recent news
+---------TORO
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ATORO
+no recent news
+---------MTEK
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AMTEK
+no recent news
+---------DDC
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ADDC
+no recent news
+---------SNES
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ASNES
+no recent news
+---------KPLT
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AKPLT
+no recent news
+---------MDBH
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AMDBH
+no recent news
+---------GPRE
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AGPRE
+no recent news
+---------PPIH
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APPIH
+no recent news
+---------RUN
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ARUN
+no recent news
+---------CISS
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ACISS
+no recent news
+---------GTE
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AGTE
+no recent news
+---------PHOE
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3APHOE
+no recent news
+---------NXGL
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANXGL
+no recent news
+---------ATHR
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AATHR
+no recent news
+---------GNLX
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3AGNLX
+no recent news
+---------NUKK
+https://cn.tradingview.com/chart/zbv9c92p/?symbol=NASDAQ%3ANUKK
+no recent news
+删除key: []
+2025-06-15 22:25:18.962092
+StockTitan 获取 CCCM 新闻时出错: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".company-list") to be visible
+
+删除key: []
+2025-06-15 22:26:18.979872
