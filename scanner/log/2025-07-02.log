@@ -1,0 +1,250 @@
+调度器启动，按 Ctrl+C 退出...
+2025-07-02 18:49:55.267969
+---------DAIC 202.39%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ADAIC
+no recent news
+---------NAMM 80.96%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ANAMM
+no recent news
+---------GRYP 52.02%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AGRYP
+13 hours ago
+American Bitcoin and Gryphon Digital Mining Advance Toward Public Listing of American Bitcoin with Filing of Amended Registration Statement on Form S-4
+美国比特币和Gryphon Digital Mining推进美国比特币公开上市，并在S-4表上提交修订后的注册声明
+---------PMNT 27.82%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3APMNT
+no recent news
+---------LIMN 16.71%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ALIMN
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010256dd14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000102565f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x00000001020b66f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001020fd9e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x000000010213f0c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x00000001020f1be8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x0000000102531598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x0000000102534830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x0000000102511c14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x00000001025350b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x0000000102502dec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x0000000102555420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x00000001025555ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x0000000102565bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000018a2d2f94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018a2cdd34 thread_start + 8
+
+1 hour ago
+Tesla Q2 deliveries expected to disappoint as Musk focuses on AI, robotaxi efforts
+特斯拉第二季度交付量预计将令人失望，因为马斯克专注于人工智能和机器人出租车
+2025-07-02 18:50:55.222028
+调度器已关闭
+调度器启动，按 Ctrl+C 退出...
+2025-07-02 18:55:51.412659
+---------DAIC 202.39%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ADAIC
+no recent news
+---------NAMM 80.96%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ANAMM
+no recent news
+---------GRYP 52.02%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AGRYP
+13 hours ago
+American Bitcoin and Gryphon Digital Mining Advance Toward Public Listing of American Bitcoin with Filing of Amended Registration Statement on Form S-4
+美国比特币和Gryphon Digital Mining推进美国比特币公开上市，并在S-4表上提交修订后的注册声明
+---------PMNT 27.82%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3APMNT
+no recent news
+---------LIMN 16.71%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ALIMN
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000103301d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x00000001032f9f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x0000000102e4a6f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x0000000102e919e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x0000000102ed30c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x0000000102e85be8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x00000001032c5598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x00000001032c8830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x00000001032a5c14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x00000001032c90b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x0000000103296dec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x00000001032e9420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x00000001032e95ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x00000001032f9bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x0000000190f8ef94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000190f89d34 thread_start + 8
+
+1 hour ago
+Tesla Q2 deliveries expected to disappoint as Musk focuses on AI, robotaxi efforts
+特斯拉第二季度交付量预计将令人失望，因为马斯克专注于人工智能和机器人出租车
+2025-07-02 18:57:51.364071
+2025-07-02 18:58:51.354701
+2025-07-02 18:59:51.226202
+2025-07-02 19:00:52.020597
+2025-07-02 19:01:51.231098
+2025-07-02 19:02:51.317763
+2025-07-02 19:03:51.531825
+---------GVH 17.61%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AGVH
+no recent news
+2025-07-02 19:04:51.080198
+2025-07-02 19:05:51.147903
+---------CYN 25.7%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ACYN
+6 minutes ago
+Cyngn Readies for Next Phase of Growth with Funding Secured Through 2027
+Cyngn准备在2027年之前获得资金，进入下一阶段的增长
+2025-07-02 19:06:51.081934
+2025-07-02 19:07:51.204621
+2025-07-02 19:08:51.358700
+2025-07-02 19:09:51.230865
+2025-07-02 19:10:51.135564
+2025-07-02 19:11:51.141976
+2025-07-02 19:12:51.644403
+2025-07-02 19:13:51.175639
+2025-07-02 19:14:51.058293
+2025-07-02 19:15:51.372776
+2025-07-02 19:16:51.232925
+2025-07-02 19:17:51.502546
+2025-07-02 19:18:51.086872
+2025-07-02 19:19:51.095779
+2025-07-02 19:20:51.225418
+2025-07-02 19:21:51.416527
+2025-07-02 19:22:51.624604
+2025-07-02 19:23:51.125266
+2025-07-02 19:24:51.251833
+2025-07-02 19:25:51.236521
+2025-07-02 19:26:51.243992
+2025-07-02 19:27:51.280846
+2025-07-02 19:28:51.386279
+2025-07-02 19:29:51.225344
+2025-07-02 19:30:51.221471
+2025-07-02 19:31:51.496903
+2025-07-02 19:32:51.305292
+2025-07-02 19:33:51.288681
+---------VCIG 21.52%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AVCIG
+3 minutes ago
+QuantGold Launches Qsecore: World’s First SIM-Layer Encryption Platform for Mobile Security
+QuantGold推出Qsecore ：全球首个移动安全SIM层加密平台
+---------GITS 20.71%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AGITS
+no recent news
+2025-07-02 19:34:51.504339
+2025-07-02 19:35:51.306522
+2025-07-02 19:36:51.235852
+2025-07-02 19:37:51.155777
+2025-07-02 19:38:51.267868
+2025-07-02 19:39:51.029225
+2025-07-02 19:40:51.235719
+2025-07-02 19:41:51.142887
+2025-07-02 19:42:51.387708
+2025-07-02 19:43:51.394835
+2025-07-02 19:44:51.417621
+2025-07-02 19:45:51.168929
+2025-07-02 19:46:51.188463
+2025-07-02 19:47:51.197480
+2025-07-02 19:48:51.272105
+2025-07-02 19:49:51.068686
+2025-07-02 19:50:51.245036
+2025-07-02 19:51:51.352867
+2025-07-02 19:52:51.321113
+2025-07-02 19:53:51.427362
+2025-07-02 19:54:51.289629
+---------ELAB 15.02%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AELAB
+no recent news
+2025-07-02 19:55:51.482910
+2025-07-02 19:56:51.245113
+2025-07-02 19:57:52.162793
+2025-07-02 19:58:51.156227
+2025-07-02 19:59:51.319684
+---------NIVF 16.16%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ANIVF
+no recent news
+2025-07-02 20:00:51.373436
+2025-07-02 20:01:51.177147
+2025-07-02 20:02:51.185487
+---------BON 42.33%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ABON
+3 minutes ago
+Bon Announces Breakthrough Order for $16 Million Gut-Health Products
+Bon宣布1600万美元肠道健康产品的突破性订单
+2025-07-02 20:03:51.505821
+2025-07-02 20:04:51.263278
+2025-07-02 20:05:50.967106
+---------CYCU 18.72%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ACYCU
+5 minutes ago
+Cycurion Announces a Strategic Partnership with AgileBlue to Deliver Advanced AI-Powered Cybersecurity Operations Across North America
+Cycurion宣布与AgileBlue建立战略合作伙伴关系，在北美各地提供先进的人工智能网络安全运营
+2025-07-02 20:06:51.409621
+2025-07-02 20:07:51.394896
+2025-07-02 20:08:51.447061
+2025-07-02 20:09:51.246502
+2025-07-02 20:10:51.457777
+---------BMRA 35.39%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ABMRA
+2 minutes ago
+InFoods IBS receives CPT® Proprietary Laboratory Analysis (PLA) Code
+InFoods IBS收到CPT ®专有实验室分析(PLA)代码
+2025-07-02 20:11:51.595777
+2025-07-02 20:12:51.164363
+2025-07-02 20:13:51.007911
+2025-07-02 20:14:51.117131
+2025-07-02 20:15:51.079518
+2025-07-02 20:16:51.072942
+2025-07-02 20:17:51.087716
+2025-07-02 20:18:51.420386
+2025-07-02 20:19:52.344436
+2025-07-02 20:20:51.501487
+2025-07-02 20:21:51.340168
+2025-07-02 20:22:52.060541
+2025-07-02 20:23:51.240585
+2025-07-02 20:24:51.331711
+2025-07-02 20:25:51.570967
+2025-07-02 20:26:51.163164
+2025-07-02 20:27:51.144345
+2025-07-02 20:28:51.234311
+2025-07-02 20:29:51.156517
+2025-07-02 20:30:51.091576
+2025-07-02 20:31:51.212530
+---------GNLN 27.79%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AGNLN
+1 minute ago
+Greenlane's Leading Wholesale Platform Provides Exclusive Fulfillment of All Safety Strips Tech Corp's. Harm Reduction Solutions Offered via its Direct-to-Consumer Ecommerce Store
+Greenlane领先的批发平台提供所有Safety Strips Tech Corp的独家配送服务。通过其直接面向消费者的电子商务商店提供的减少伤害解决方案
+2025-07-02 20:32:51.035965
+2025-07-02 20:33:51.494901
+2025-07-02 20:34:51.268168
+---------RMCO 16.15%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ARMCO
+no recent news
+2025-07-02 20:35:51.510012
+2025-07-02 20:36:51.106018
+2025-07-02 20:37:51.160442
+2025-07-02 20:38:51.144983
+2025-07-02 20:39:51.434639
+2025-07-02 20:40:51.154748
+2025-07-02 20:41:51.110495
+2025-07-02 20:42:51.106429
+2025-07-02 20:43:51.522500
+2025-07-02 20:44:51.128502
+2025-07-02 20:45:51.096699
+2025-07-02 20:46:51.247611
+2025-07-02 20:48:51.589269
+2025-07-02 20:49:51.081152
+2025-07-02 20:50:51.163934
+2025-07-02 20:51:51.244770
+2025-07-02 20:52:51.185917
+2025-07-02 20:53:51.089496
+2025-07-02 20:54:51.088762
+2025-07-02 20:55:51.105456
+2025-07-02 20:56:51.124124
+2025-07-02 20:57:51.120128
+2025-07-02 20:58:51.246173
+2025-07-02 20:59:51.189253
+调度器已关闭

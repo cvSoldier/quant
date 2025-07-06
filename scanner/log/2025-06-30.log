@@ -1,0 +1,219 @@
+调度器启动，按 Ctrl+C 退出...
+2025-06-30 18:44:28.815587
+---------IPDN 240.0%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AIPDN
+no recent news
+---------KLTO 34.56%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AKLTO
+4 hours ago
+Klotho Neurosciences Moves Forward with Manufacturing Gene Therapy for the Treatment of ALS
+Klotho Neurosciences推进用于治疗ALS的制造基因疗法
+---------VERO 32.11%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AVERO
+no recent news
+---------BMNR 20.28%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ABMNR
+no recent news
+---------LNZA 16.84%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ALNZA
+no recent news
+2025-06-30 18:45:29.975291
+---------GNS 16.75%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AGNS
+no recent news
+2025-06-30 18:46:34.752530
+2025-06-30 18:47:30.975992
+2025-06-30 18:48:27.978091
+2025-06-30 18:49:28.240788
+2025-06-30 18:50:28.350056
+2025-06-30 18:51:29.299815
+2025-06-30 18:52:28.406369
+---------RITR 15.11%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ARITR
+no recent news
+2025-06-30 18:53:28.112361
+2025-06-30 18:54:28.583910
+2025-06-30 18:55:28.330600
+2025-06-30 18:56:28.214603
+2025-06-30 18:57:28.583948
+2025-06-30 18:58:28.011348
+2025-06-30 18:59:28.389432
+2025-06-30 19:00:28.823710
+---------MSPR 19.01%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AMSPR
+no recent news
+2025-06-30 19:01:28.694940
+2025-06-30 19:02:28.188143
+2025-06-30 19:03:28.054586
+2025-06-30 19:04:28.934797
+---------WBUY 38.37%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AWBUY
+2 minutes ago
+Webuy Global Ltd Integrates Coinbase to Accept Stablecoin Payments - Leading the Way in Travel Technology and Digital Payments
+Webuy Global Ltd整合Coinbase以接受稳定币支付-引领旅游技术和数字支付
+---------GVH 17.82%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AGVH
+3 hours ago
+Globavend and Strawberrynet Cosmetics Execute Strategic Partnership
+Globavend与Strawberrynet Cosmetics建立战略合作伙伴关系
+2025-06-30 19:05:28.753153
+---------HCAI 22.5%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AHCAI
+5 minutes ago
+Huachen AI Parking Management Technology Holding Co., Ltd and Hangzhou Qianhui Electric Technology Co., Ltd Establish Cooperative Relationship to Enhance Two-Wheeled E-Charging Infrastructure
+华辰人工智能停车管理技术控股有限公司与杭州前辉电气科技有限公司建立合作关系，提升两轮电动充电基础设施
+2025-06-30 19:06:28.346536
+2025-06-30 19:07:28.909569
+2025-06-30 19:08:28.454382
+2025-06-30 19:09:27.925999
+2025-06-30 19:10:28.184963
+2025-06-30 19:11:28.337703
+2025-06-30 19:12:28.146639
+2025-06-30 19:13:28.124957
+2025-06-30 19:14:28.539666
+2025-06-30 19:15:28.736424
+2025-06-30 19:16:28.169488
+2025-06-30 19:17:28.977398
+2025-06-30 19:18:28.441322
+2025-06-30 19:19:28.053894
+2025-06-30 19:20:28.855612
+2025-06-30 19:21:28.437684
+2025-06-30 19:22:29.822461
+2025-06-30 19:23:28.518122
+2025-06-30 19:24:28.692782
+2025-06-30 19:25:28.906729
+2025-06-30 19:26:28.288577
+2025-06-30 19:27:28.596366
+2025-06-30 19:28:28.364757
+2025-06-30 19:29:28.468183
+2025-06-30 19:30:27.908396
+2025-06-30 19:31:28.075942
+2025-06-30 19:32:28.033765
+2025-06-30 19:33:28.202469
+2025-06-30 19:34:27.948203
+2025-06-30 19:35:28.166312
+2025-06-30 19:36:27.911345
+2025-06-30 19:37:28.263286
+2025-06-30 19:38:28.096477
+2025-06-30 19:39:28.498280
+2025-06-30 19:40:28.474485
+2025-06-30 19:41:28.005803
+---------LIMN 16.77%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ALIMN
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102585d14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x000000010257df88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x00000001020ce6f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001021159e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x00000001021570c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x0000000102109be8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x0000000102549598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x000000010254c830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x0000000102529c14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x000000010254d0b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x000000010251adec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x000000010256d420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x000000010256d5ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x000000010257dbd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000018a2d2f94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018a2cdd34 thread_start + 8
+
+6 minutes ago
+Trump tariffs live updates: Trump sees no need to extend July 9 deadline; Canada scraps tech tax
+特朗普关税实时更新：特朗普认为没有必要延长7月9日的最后期限；加拿大取消科技税
+2025-06-30 19:42:28.491297
+2025-06-30 19:43:30.014683
+2025-06-30 19:44:28.162706
+2025-06-30 19:45:28.756615
+2025-06-30 19:46:28.694840
+---------GDHG 17.12%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AGDHG
+no recent news
+2025-06-30 19:47:29.245001
+2025-06-30 19:48:28.186379
+---------ARTL 95.58%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AARTL
+3 minutes ago
+Artelo Biosciences Announces Positive First-in-Human Data for ART26.12, a Novel Non-Opioid Treatment Candidate for Persistent Pain
+Artelo Biosciences宣布ART26.12的首次人体阳性数据， ART26.12是治疗持续性疼痛的新型非阿片类药物候选药物
+2025-06-30 19:49:28.436782
+2025-06-30 19:50:28.033909
+2025-06-30 19:51:28.128560
+2025-06-30 19:52:30.337916
+2025-06-30 19:53:28.102551
+2025-06-30 19:54:28.158549
+2025-06-30 19:55:29.341947
+---------HPE 15.43%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AHPE
+no recent news
+2025-06-30 19:56:28.077645
+2025-06-30 19:57:28.470195
+2025-06-30 19:58:28.642320
+---------BE 15.37%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ABE
+no recent news
+2025-06-30 19:59:28.354655
+2025-06-30 20:00:29.165053
+2025-06-30 20:01:28.476292
+2025-06-30 20:02:28.201205
+---------MNTS 38.3%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AMNTS
+2 minutes ago
+Momentus Awarded NASA Contract for In-Space Power System Demonstration
+Momentus获得NASA太空电力系统演示合同
+---------BFRI 19.68%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ABFRI
+2 minutes ago
+Biofrontera Inc. Announces Major Restructuring of Relationship With Biofrontera AG Backed By $11 Million Investment
+Biofrontera Inc.宣布对与Biofrontera AG的关系进行重大重组，并获得1100万美元投资支持
+---------NFE 15.2%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ANFE
+no recent news
+2025-06-30 20:03:28.095302
+2025-06-30 20:04:28.191255
+2025-06-30 20:05:28.096451
+2025-06-30 20:06:28.166724
+2025-06-30 20:07:28.059738
+---------VTAK 17.11%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AVTAK
+7 minutes ago
+Catheter Precision, Inc.  Forms new Joint Venture Called Kardionav to Exploit patented AI Techniques to Create New VT Software platform
+Catheter Precision, Inc.成立名为Kardionav的新合资企业，利用获得专利的人工智能技术创建新的VT软件平台
+2025-06-30 20:08:28.181976
+2025-06-30 20:09:28.335095
+2025-06-30 20:10:28.121116
+2025-06-30 20:11:28.176321
+---------LIDR 16.15%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ALIDR
+11 minutes ago
+AEye’s Apollo Sensor Selected by Major OEM Unlocking Potential $30M Revenue Opportunity
+AEye的Apollo传感器被主要原始设备制造商选中，释放了3000万美元的潜在收入机会
+2025-06-30 20:12:28.602432
+2025-06-30 20:13:28.010466
+2025-06-30 20:14:28.564477
+2025-06-30 20:15:28.170441
+2025-06-30 20:16:28.194867
+---------INTS 18.72%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AINTS
+16 minutes ago
+Intensity Therapeutics, Inc. Announces that INT230-6 Achieved 100% Complete Response Rate in Preclinical Models of Malignant Peripheral Nerve Sheath Tumors (MPNST)
+Intensity Therapeutics, Inc.宣布， INT230-6在恶性周围神经鞘瘤(MPNST)的临床前模型中达到100%的完全缓解率
+---------GAME 16.62%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AGAME
+no recent news
+---------NLSP 15.41%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ANLSP
+1 hour ago
+NLS Pharmaceutics and Kadimastem Announce Pricing and Closing of $1 Million Equity Financing
+NLS Pharmaceutics和Kadimastem宣布定价并完成100万美元股权融资
+2025-06-30 20:17:30.977460
+2025-06-30 20:18:28.060758
+2025-06-30 20:19:28.346329
+2025-06-30 20:20:28.452877
+---------NXTT 15.69%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ANXTT
+no recent news
+2025-06-30 20:21:29.088536
+2025-06-30 20:22:28.602070
+调度器已关闭

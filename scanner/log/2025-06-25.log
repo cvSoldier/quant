@@ -1,0 +1,270 @@
+调度器启动，按 Ctrl+C 退出...
+2025-06-25 18:51:23.828160
+---------BLNE 33.8%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ABLNE
+no recent news
+---------QS 33.49%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AQS
+14 hours ago
+QuantumScape Achieves Major Milestone: Cobra Separator Process Enters Baseline Production
+QuantumScape实现重大里程碑： Cobra分离器工艺进入基线生产
+---------GNS 21.65%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AGNS
+16 hours ago
+Genius Group CEO Roger Hamilton buys 650,000 shares, increases shareholdings by 10%
+天才集团首席执行官罗杰·汉密尔顿购买65万股股票，股权增加10%
+---------LIMN 18.11%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ALIMN
+发生错误: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100c4dd14 cxxbridge1$str$ptr + 2735276
+1   chromedriver                        0x0000000100c45f88 cxxbridge1$str$ptr + 2703136
+2   chromedriver                        0x00000001007966f0 cxxbridge1$string$len + 90424
+3   chromedriver                        0x00000001007dd9e0 cxxbridge1$string$len + 381992
+4   chromedriver                        0x000000010081f0c8 cxxbridge1$string$len + 650000
+5   chromedriver                        0x00000001007d1be8 cxxbridge1$string$len + 333360
+6   chromedriver                        0x0000000100c11598 cxxbridge1$str$ptr + 2487600
+7   chromedriver                        0x0000000100c14830 cxxbridge1$str$ptr + 2500552
+8   chromedriver                        0x0000000100bf1c14 cxxbridge1$str$ptr + 2358188
+9   chromedriver                        0x0000000100c150b8 cxxbridge1$str$ptr + 2502736
+10  chromedriver                        0x0000000100be2dec cxxbridge1$str$ptr + 2297220
+11  chromedriver                        0x0000000100c35420 cxxbridge1$str$ptr + 2634680
+12  chromedriver                        0x0000000100c355ac cxxbridge1$str$ptr + 2635076
+13  chromedriver                        0x0000000100c45bd4 cxxbridge1$str$ptr + 2702188
+14  libsystem_pthread.dylib             0x000000018a2d2f94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018a2cdd34 thread_start + 8
+
+13 hours ago
+Tesla faces robotaxi hurdles while Waymo keeps expanding
+特斯拉面临机器人出租车障碍，而Waymo不断扩张
+---------CTOR 16.92%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ACTOR
+no recent news
+---------IBO 15.63%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AIBO
+no recent news
+2025-06-25 18:53:20.495823
+---------ONDS 16.98%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AONDS
+22 hours ago
+Ondas and Mistral Sign Strategic Partnership to Accelerate U.S. Defense and Homeland Security Sales for Autonomous Drone Platforms
+Ondas和Mistral签署战略合作伙伴关系，以加速美国国防和国土安全部对自主无人机平台的销售
+2025-06-25 18:54:20.469186
+---------ULY 170.11%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AULY
+no recent news
+---------HOVR 19.34%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AHOVR
+no recent news
+2025-06-25 18:55:20.383853
+2025-06-25 18:56:20.392391
+2025-06-25 18:57:20.985818
+2025-06-25 18:58:20.650337
+2025-06-25 18:59:20.515341
+2025-06-25 19:00:21.284365
+2025-06-25 19:01:20.492305
+2025-06-25 19:02:20.507300
+2025-06-25 19:03:20.288440
+2025-06-25 19:04:21.173090
+---------DTIL 20.13%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ADTIL
+3 minutes ago
+Precision BioSciences Receives FDA Rare Pediatric Disease Designation for PBGENE-DMD for the Treatment of Duchenne Muscular Dystrophy
+Precision BioSciences获得FDA关于PBGENE-DMD治疗Duchenne肌营养不良症的罕见儿科疾病认定
+---------RGC 16.64%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ARGC
+no recent news
+2025-06-25 19:05:20.232698
+2025-06-25 19:06:20.319250
+2025-06-25 19:07:20.372726
+2025-06-25 19:08:20.645652
+2025-06-25 19:09:20.350843
+2025-06-25 19:10:20.370257
+2025-06-25 19:11:20.405853
+2025-06-25 19:12:20.835769
+2025-06-25 19:13:20.563648
+2025-06-25 19:14:20.944670
+2025-06-25 19:15:21.162420
+2025-06-25 19:16:20.661259
+2025-06-25 19:17:20.955156
+2025-06-25 19:18:20.402564
+2025-06-25 19:19:21.221983
+2025-06-25 19:20:20.361292
+---------PRTG 30.11%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3APRTG
+20 minutes ago
+Portage Biotech Regains Full Compliance with Nasdaq Continued Listing Requirements
+Portage Biotech重新完全符合纳斯达克的持续上市要求
+2025-06-25 19:21:20.585051
+2025-06-25 19:22:20.356353
+2025-06-25 19:23:20.307623
+2025-06-25 19:24:20.463600
+---------PRFX 44.5%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3APRFX
+no recent news
+2025-06-25 19:25:20.465219
+2025-06-25 19:27:20.835683
+2025-06-25 19:28:21.644895
+---------PWM 21.51%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3APWM
+no recent news
+2025-06-25 19:29:20.470535
+2025-06-25 19:30:20.352097
+2025-06-25 19:31:20.655817
+2025-06-25 19:32:20.909843
+2025-06-25 19:33:20.605501
+---------PSTV 48.13%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3APSTV
+3 minutes ago
+Plus Therapeutics Announces FDA Clearance of its Investigational New Drug Application using REYOBIQTM for the Treatment of Childhood Brain Cancer
+Plus Therapeutics宣布FDA批准其使用REYOBIQTM治疗儿童脑癌的临床试验性新药申请
+2025-06-25 19:34:20.525800
+2025-06-25 19:35:21.035831
+2025-06-25 19:36:20.468888
+2025-06-25 19:37:20.462545
+2025-06-25 19:38:20.349312
+2025-06-25 19:39:20.431402
+2025-06-25 19:40:20.886755
+2025-06-25 19:41:20.718185
+2025-06-25 19:42:20.795173
+2025-06-25 19:43:20.690147
+2025-06-25 19:44:20.523276
+2025-06-25 19:45:20.615030
+2025-06-25 19:46:20.458473
+2025-06-25 19:47:20.489563
+2025-06-25 19:48:20.517161
+---------PHIO 20.81%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3APHIO
+3 minutes ago
+Phio Pharmaceuticals Announces Positive Safety Monitoring Committee Recommendation to Advance INTASYL PH-762 Skin Cancer Clinical Trial to Fifth Dose Escalation Cohort
+Phio Pharmaceuticals宣布阳性安全性监测委员会建议将INTASYL PH-762皮肤癌临床试验提前至第五次剂量递增队列
+2025-06-25 19:49:20.363257
+2025-06-25 19:50:20.472874
+2025-06-25 19:51:20.396225
+2025-06-25 19:52:20.833786
+2025-06-25 19:53:20.340662
+2025-06-25 19:54:20.500148
+2025-06-25 19:55:21.097795
+2025-06-25 19:56:20.489468
+2025-06-25 19:57:20.654428
+---------ZVSA 46.67%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AZVSA
+2 minutes ago
+ZyVersa Therapeutics Announces Share Purchase Agreement for up to $10 Million in Partnership with Williamsburg Venture Holdings to Fund Clinical Development of Cholesterol Efflux Mediator™ VAR 200
+ZyVersa Therapeutics宣布与Williamsburg Venture Holdings达成高达1000万美元的股份购买协议，以资助胆固醇排出介质™ VAR 200的临床开发
+2025-06-25 19:58:20.235378
+2025-06-25 19:59:20.681718
+2025-06-25 20:00:20.805920
+2025-06-25 20:01:20.723572
+2025-06-25 20:02:20.556193
+2025-06-25 20:03:20.339176
+---------MYNZ 53.15%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AMYNZ
+2 minutes ago
+Mainz Biomed Secures Public Funding to Advance Innovative Pancreatic Cancer Screening Test
+美因茨生物医学获得公共资金，以推进创新的胰腺癌筛查测试
+---------OVID 24.59%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AOVID
+3 minutes ago
+Ovid Therapeutics Enters Agreement with Immedica Pharma AB for Sale of Future Ganaxolone Royalties
+Ovid Therapeutics与Immedica Pharma AB达成协议，出售未来的Ganaxolone使用费
+---------AEON 17.15%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AAEON
+no recent news
+---------BTAI 16.76%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ABTAI
+no recent news
+2025-06-25 20:04:20.436560
+2025-06-25 20:05:20.586583
+---------SONM 22.32%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ASONM
+5 minutes ago
+Sonim Technologies Signs Letter of Intent for Reverse Takeover with a Full Stack A.I. Factory Provider
+Sonim Technologies与全栈人工智能工厂提供商签署反向收购意向书
+2025-06-25 20:06:20.406533
+2025-06-25 20:07:21.032612
+---------JVSA 36.33%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AJVSA
+no recent news
+---------VERI 15.44%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AVERI
+7 minutes ago
+Veritone Awarded Sole Source Contract from the Department of the Air Force in Support of Air Force Office of Special Investigations
+Veritone获得空军部支持空军特别调查办公室的独家合同
+2025-06-25 20:08:20.367974
+2025-06-25 20:09:20.287511
+2025-06-25 20:10:20.333101
+2025-06-25 20:11:20.464729
+2025-06-25 20:12:20.547664
+2025-06-25 20:13:20.299893
+2025-06-25 20:14:20.557672
+2025-06-25 20:15:20.360036
+2025-06-25 20:16:20.671103
+---------XHLD 16.61%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AXHLD
+no recent news
+2025-06-25 20:17:20.291644
+2025-06-25 20:18:20.806037
+2025-06-25 20:19:21.387831
+2025-06-25 20:20:20.897032
+2025-06-25 20:21:20.405810
+2025-06-25 20:22:20.844949
+2025-06-25 20:23:20.671574
+2025-06-25 20:24:20.400695
+2025-06-25 20:25:20.286136
+2025-06-25 20:26:21.560063
+2025-06-25 20:27:20.521623
+---------BMBL 15.74%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ABMBL
+no recent news
+2025-06-25 20:28:20.517417
+---------SILO 19.18%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ASILO
+1 minute ago
+Hoth Therapeutics (HOTH) and Silo Pharma (NASDAQ: SILO) today announced the formation of a 50/50 joint venture to develop a first-in-class GDNF-based therapy licensed from the U.S. Department of Veterans Affairs. The therapy targets obesity and fatty liver disease.
+Hoth Therapeutics (HOTH)和Silo Pharma (NASDAQ: SILO)今天宣布成立一家50/50合资企业，开发获得美国退伍军人事务部许可的一流基于GDNF的疗法。该疗法针对肥胖和脂肪肝。
+2025-06-25 20:29:20.447010
+2025-06-25 20:30:20.655372
+---------CURR 20.07%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ACURR
+no recent news
+2025-06-25 20:31:20.319726
+2025-06-25 20:32:20.692124
+2025-06-25 20:33:20.434546
+2025-06-25 20:34:20.922694
+2025-06-25 20:35:20.861334
+---------GCTK 33.5%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AGCTK
+5 minutes ago
+Glucotrack and OneTwo Analytics Present Positive Final Results of First-In-Human Study for Continuous Blood Glucose Monitor at American Diabetes Association’s 85th Scientific Sessions
+Glucotrack和OneTwo Analytics在美国糖尿病协会第85届科学会议上展示了连续血糖监测首次人体研究的阳性最终结果
+2025-06-25 20:36:20.623520
+2025-06-25 20:37:20.570223
+2025-06-25 20:38:21.099730
+2025-06-25 20:39:20.501889
+2025-06-25 20:40:20.458481
+2025-06-25 20:41:20.434900
+2025-06-25 20:42:20.460237
+2025-06-25 20:43:20.655999
+2025-06-25 20:44:20.788772
+2025-06-25 20:45:20.530721
+2025-06-25 20:46:20.612374
+---------ECX 17.13%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3AECX
+5 hours ago
+ECARX Secures Non-Automotive Customer for its Lidar Solution, Expanding into the High-Growth Robotics Market
+ECARX为其激光雷达解决方案保护非汽车客户，进军高增长机器人市场
+---------SRFM 16.11%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ASRFM
+no recent news
+2025-06-25 20:47:20.448360
+2025-06-25 20:48:20.601840
+2025-06-25 20:49:21.273222
+2025-06-25 20:50:20.517225
+2025-06-25 20:56:20.521798
+---------RSLS 16.79%
+https://cn.tradingview.com/chart/VVrpBNv8/?symbol=NASDAQ%3ARSLS
+25 minutes ago
+ReShape Lifesciences® Granted Key International Patent in Australia for Its Proprietary Diabetes Neuromodulation Technology
+ReShape Lifesciences ®因其专有的糖尿病神经调节技术在澳大利亚获得关键国际专利
+调度器已关闭
