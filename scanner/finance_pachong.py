@@ -9,6 +9,27 @@ from datetime import datetime
 from dateutil.relativedelta import relativedelta
 import pytz
 
+from selenium.webdriver.chrome.service import Service
+
+# 设置Chrome选项
+chrome_options = Options()
+chrome_options.add_argument("--headless")  # 无头模式（取消注释可在有界面模式下调试）
+chrome_options.add_argument("--disable-gpu")
+chrome_options.add_argument("--window-size=1920x1080")
+chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+
+# 自定义等待条件：等待任意一个元素出现
+class AnyElementLocated:
+    def __init__(self, locators):
+        self.locators = locators
+    
+    def __call__(self, driver):
+        for locator in self.locators:
+            elements = driver.find_elements(*locator)
+            if elements and elements[0].is_displayed():
+                return elements[0]
+        return False
+
 
 def time_ago(time_str, time_format='%m/%d/%Y %H:%M'):
     """
@@ -72,11 +93,15 @@ def get_news_by_stocktitan(driver, stock_code):
         # 显式等待页面加载 - 使用更稳健的选择器
         wait = WebDriverWait(driver, 15)
         company_list = wait.until(
-            EC.presence_of_element_located((
-                By.CSS_SELECTOR, 
-                ".company-list"
-            ))
+            AnyElementLocated([
+                (By.CSS_SELECTOR, ".company-list"),
+                (By.CSS_SELECTOR, ".error-code")
+            ])
         )
+        element_class = company_list.get_attribute("class")
+        if "error-code" in element_class:
+            news_data = None
+            return news_data
         stream_content = company_list.find_element(By.CSS_SELECTOR, ".news-feed-content")
         title_elem = stream_content.find_element(By.CSS_SELECTOR, "h2")
         news_data["title"] = title_elem.text
@@ -116,17 +141,9 @@ def get_news_by_yahoo(driver, stock_code):
 
 
 def get_news_data(stock_code):
-    # 设置Chrome选项
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")  # 无头模式（取消注释可在有界面模式下调试）
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--window-size=1920x1080")
-    chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
-    
     # 设置Chrome驱动
     # service = Service(executable_path="chromedriver.exe")  # 根据实际情况修改路径
     driver = webdriver.Chrome(options=chrome_options)
-    
     try:
         news_data = None
         news_data = get_news_by_stocktitan(driver, stock_code)
@@ -143,7 +160,7 @@ def get_news_data(stock_code):
         return news_data
 
 if __name__ == "__main__":
-    result = get_news_data('KNW')
+    result = get_news_data('MINM')
     if result:
         print(result)
     else:
