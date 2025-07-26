@@ -1,3 +1,5 @@
+# 不好用，代理了之后除了浏览器的请求，其他（比如抓news和翻译）都有问题
+
 from mitmproxy import http, ctx
 import json
 from news import get_news
