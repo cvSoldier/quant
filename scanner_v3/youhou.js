@@ -7,6 +7,7 @@
 // @grant        GM_xmlhttpRequest
 // @grant        GM_addStyle
 // @connect      localhost
+// @connect      papertrading.tradingview.com
 // @match        https://cn.tradingview.com/chart/DpA5nKu2/?source=promo_go_pro_button
 // @require      https://scriptcat.org/lib/637/1.4.7/ajaxHooker.js
 // ==/UserScript==
@@ -42,40 +43,90 @@ function vision_btn(btn) {
 (function() {
    'use strict';
 
+   var INVALID_PRICE = 100
    var fund_remain = 0
-   var cur_price = 1
+   var cur_price = INVALID_PRICE
    var cur_stock_symbol = ''
    var stock_num = 0
    var account_id = 0
 
-   function get_stock_symbol() {
+   function setInputValueWithEvents(input, value) {
+   // 1. 聚焦到元素
+       input.focus();
        
+       // 2. 更新实际值
+       input.value = value;
+       
+       // 3. 触发各种事件模拟真实输入
+       const events = [
+           'keydown', 'keypress', 'input', 'keyup', 'change', 'blur'
+       ];
+       
+       events.forEach(eventType => {
+           const event = new Event(eventType, { 
+               bubbles: true,
+               cancelable: true
+           });
+           
+           // 对于input事件，添加额外的数据特性
+           if (eventType === 'input') {
+               Object.defineProperty(event, 'target', {
+                   value: { value: input.value },
+                   writable: false
+               });
+           }
+           
+           input.dispatchEvent(event);
+       });
+       
+       // 4. 特殊处理 React 可能需要的合成事件
+       try {
+           const reactEvent = new Event('change', { bubbles: true });
+           Object.defineProperty(reactEvent, 'target', { 
+               value: { value: input.value }, 
+               writable: false 
+           });
+           input.dispatchEvent(reactEvent);
+       } catch (e) {
+           console.log("React 特殊事件处理失败", e);
+       }
+   }
+
+   function handleClick(event) {
+       var tr_ele = event.target.closest('tr');
+       if (tr_ele && tr_ele.dataset.rowkey) {
+           cur_stock_symbol = tr_ele.dataset.rowkey;
+       }
+   }
+   function get_stock_symbol() {
+       document.querySelectorAll('.listRow').forEach(element => {
+           element.addEventListener('click', handleClick);
+       });
    }
    function buy_in() {
+       var qty = Math.floor(fund_remain * 0.95 / cur_price)
        const tradeData = {
-           symbol: "NASDAQ:LOBO",
+           symbol: cur_stock_symbol,
            type: "limit",
-           qty: 418.03,
+           qty: qty,
            side: "buy",
-           price: 0.7864,
+           price: cur_price,
            outside_rth: true,
            outside_rth_tp: false,
            expiration: 1754834810
        };
+       console.log(tradeData)
 
-       GM_xmlhttpRequest({
-          method: "GET",
-          url: `http://localhost:5001/get_news?stock_name=${encodeURIComponent(stockName)}`,
-          onload: function(response) {
-              try {
-                  const data = JSON.parse(response.responseText);
-                  resolve(data);
-              } catch (e) {
-                  reject(new Error('Failed to parse JSON'));
-              }
-          },
-          timeout: 5000
-      });
+       var buy_side = document.getElementsByClassName('buy-B5GOsH7j')[0]
+       buy_side.click()
+       document.querySelector("#absolute-limit-price-field").value = cur_price;
+
+       var qty_dom = document.querySelector("#quantity-field")
+       // qty_dom.value = String(qty);
+       setInputValueWithEvents(qty_dom, qty)
+       
+       // var done_btn = document.getElementsByClassName('button-pP_E6i3F')[0]
+       // done_btn.click()
    }
 
    // 添加按钮组样式
@@ -154,7 +205,9 @@ function vision_btn(btn) {
    `;
    
    // 添加按钮组到页面
-   document.body.appendChild(btnGroup);
+   setTimeout(() => {
+       document.body.appendChild(btnGroup);
+   }, 2000)
 
    // 添加按钮点击事件
    const buttons = btnGroup.querySelectorAll('.draggable-btn');
@@ -229,8 +282,10 @@ function vision_btn(btn) {
                newsCell.textContent = res.title;
                parentElement.appendChild(newsCell);
            } else {
-               news_datas[0].innerText = res.date;
-               news_datas[1].innerText = res.title;
+               if(res) {
+                   news_datas[0].innerText = res.date;
+                   news_datas[1].innerText = res.title;
+               }
            }
        })
        // 发送请求，然后渲染到这一行上
@@ -242,6 +297,7 @@ function vision_btn(btn) {
                var data = res.json.data
                var stock_keys = data.map(item => item.s)
                stock_keys.map(get_news_by_stock)
+               get_stock_symbol()
            };
        }
        // 获取账号剩余资金
@@ -253,5 +309,118 @@ function vision_btn(btn) {
            };
        }
    });
-   // Your code here...
+   function splitMessageFrames(data) {
+       const frames = [];
+       let remaining = data;
+       
+       while (remaining.length > 0) {
+           // 匹配帧头 ~m~{length}~m~
+           const headerMatch = remaining.match(/^~m~(\d+)~m~/);
+           if (!headerMatch) break;
+           
+           const headerLength = headerMatch[0].length;
+           const contentLength = parseInt(headerMatch[1]);
+           
+           // 提取内容
+           const content = remaining.substring(headerLength, headerLength + contentLength);
+           frames.push(content);
+           
+           // 更新剩余内容
+           remaining = remaining.substring(headerLength + contentLength);
+       }
+       
+       return frames;
+   }
+   function parseMessageFrame(frame) {
+       try {
+           const data = JSON.parse(frame);
+           
+           // 只处理qsd消息
+           if (data.m !== 'qsd') return null;
+           
+           // 提取价格信息
+           const payload = data.p[1];
+           if (!payload || !payload.v) return null;
+           
+           // 解析股票代码
+           let stock_symbol = 'Unknown';
+           if (payload.n) {
+               if (payload.n.startsWith('={')) {
+                   // 处理带参数的符号格式
+                   const symbolData = JSON.parse(payload.n.slice(1));
+                   stock_symbol = symbolData.stock_symbol || 'Unknown';
+               } else {
+                   stock_symbol = payload.n;
+               }
+           }
+           
+           // 提取价格
+           // console.log(payload)
+           const price = payload.v.ask || payload.v.rtc || payload.v.lp || INVALID_PRICE;
+           return {
+               stock_symbol,
+               price,
+           };
+       } catch (e) {
+           throw new Error('解析JSON失败: ' + e.message);
+       }
+   }
+
+   // 保存原始WebSocket
+   const NativeWebSocket = unsafeWindow.WebSocket;
+   
+   // 覆盖WebSocket构造函数
+   unsafeWindow.WebSocket = function(url, protocols) {
+       const targetPattern = /wss:\/\/prodata\.tradingview\.com\/socket\.io\/websocket/;
+       if (typeof url === 'string' && targetPattern.test(url)) {
+           console.log(`[WebSocket拦截器] 拦截到目标连接: ${url}`);
+           
+           const ws = new NativeWebSocket(url, protocols);
+           
+           // 增强拦截：监听所有消息事件
+           const messageHandler = function(event) {
+               try {
+                   const data = event.data;
+                   // console.log('[WebSocket拦截器] 收到消息:', data);
+                   const messageFrames = splitMessageFrames(data);
+           
+                   // 解析每条消息
+                   messageFrames.forEach(frame => {
+                       try {
+                           const parsed = parseMessageFrame(frame);
+                           if (parsed) {
+                               if (parsed.price != INVALID_PRICE) {
+                                   cur_price = parsed.price
+                               }
+                           }
+                       } catch (e) {
+                           console.log(`解析错误: ${e.message}`);
+                       }
+                   });
+               } catch (e) {
+                   console.error('[WebSocket拦截器] 消息处理错误:', e);
+               }
+           };
+           
+           ws.addEventListener('message', messageHandler);
+           
+           // 添加关闭和错误监听
+           ws.addEventListener('close', () => {
+               console.log('[WebSocket拦截器] 连接关闭');
+               ws.removeEventListener('message', messageHandler);
+           });
+           
+           ws.addEventListener('error', (error) => {
+               console.error('[WebSocket拦截器] 连接错误:', error);
+           });
+           
+           return ws;
+       }
+       
+       // 非目标连接使用原始WebSocket
+       return new NativeWebSocket(url, protocols);
+   };
+   
+   // 保留WebSocket原型
+   unsafeWindow.WebSocket.prototype = NativeWebSocket.prototype;
 })();
