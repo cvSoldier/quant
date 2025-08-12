@@ -6,7 +6,7 @@ from dateutil.relativedelta import relativedelta
 import pytz
 from apscheduler.schedulers.blocking import BlockingScheduler
 
-news_dict = {}
+trans_cache_dict = {}
 def time_ago(time_str, time_format='%m/%d/%Y %H:%M'):
     """
     计算给定时间距离现在多久以前，返回自然语言描述
@@ -89,11 +89,11 @@ def get_news(stock_code):
         
         date = convert_us_to_shanghai_time(date)
         date = time_ago(date)
-        if title_ori in news_dict:
-            title = news_dict[title_ori]
+        if title_ori in trans_cache_dict:
+            title = trans_cache_dict[title_ori]
         else:
             title = ggtran(title_ori)
-            news_dict[title_ori] = title
+            trans_cache_dict[title_ori] = title
         if title == '':
             title = title_ori
         news_data = {
