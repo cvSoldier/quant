@@ -7,6 +7,10 @@ import pytz
 from apscheduler.schedulers.blocking import BlockingScheduler
 
 trans_cache_dict = {}
+news_cache_dict= {}
+# 每10s访问一次，新闻过期时间为30s
+CACHE_DISABLE_TIMES = 3
+
 def time_ago(time_str, time_format='%m/%d/%Y %H:%M'):
     """
     计算给定时间距离现在多久以前，返回自然语言描述
@@ -73,6 +77,16 @@ def ggtran(text,dest='zh-cn', src='auto'):
         return translation
 
 def get_news(stock_code):
+    is_new_stock = False
+    if stock_code in news_cache_dict:
+        news_cache = news_cache_dict[stock_code]
+        if news_cache['visit_times'] < CACHE_DISABLE_TIMES:
+            news_cache['visit_times'] = news_cache['visit_times'] + 1
+            print('using cache')
+            return news_cache['news']
+    else:
+        is_new_stock = True
+
     url = f"https://www.stocktitan.net/news/{stock_code}/"
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
     news_data = None
@@ -101,7 +115,13 @@ def get_news(stock_code):
             'title_ori': title_ori,
             'title': title,
             'date': date,
+            'is_new_stock': is_new_stock
         }
+        news_cache_dict[stock_code] = {
+            'visit_times': 0,
+            'news': news_data
+        }
+        print('refresh cache')
         return news_data
 
     except requests.exceptions.RequestException as e:
@@ -110,7 +130,7 @@ def get_news(stock_code):
         return news_data
 
 def job():
-    print(get_news('vape'))
+    print(get_news('prph'))
 
 if __name__ == "__main__":
     scheduler = BlockingScheduler(timezone="Asia/Shanghai")  # 设置时区（根据需求修改）

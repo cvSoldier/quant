@@ -50,48 +50,6 @@ function vision_btn(btn) {
    var stock_num = 0
    var account_id = 0
 
-   function setInputValueWithEvents(input, value) {
-   // 1. 聚焦到元素
-       input.focus();
-       
-       // 2. 更新实际值
-       input.value = value;
-       
-       // 3. 触发各种事件模拟真实输入
-       const events = [
-           'keydown', 'keypress', 'input', 'keyup', 'change', 'blur'
-       ];
-       
-       events.forEach(eventType => {
-           const event = new Event(eventType, { 
-               bubbles: true,
-               cancelable: true
-           });
-           
-           // 对于input事件，添加额外的数据特性
-           if (eventType === 'input') {
-               Object.defineProperty(event, 'target', {
-                   value: { value: input.value },
-                   writable: false
-               });
-           }
-           
-           input.dispatchEvent(event);
-       });
-       
-       // 4. 特殊处理 React 可能需要的合成事件
-       try {
-           const reactEvent = new Event('change', { bubbles: true });
-           Object.defineProperty(reactEvent, 'target', { 
-               value: { value: input.value }, 
-               writable: false 
-           });
-           input.dispatchEvent(reactEvent);
-       } catch (e) {
-           console.log("React 特殊事件处理失败", e);
-       }
-   }
-
    function handleClick(event) {
        var tr_ele = event.target.closest('tr');
        if (tr_ele && tr_ele.dataset.rowkey) {
@@ -103,32 +61,102 @@ function vision_btn(btn) {
            element.addEventListener('click', handleClick);
        });
    }
+   function set_value_of_react_dom(targetInput, value) {
+       if (!targetInput) {
+           console.warn('目标input元素未找到！');
+           return;
+       }
+
+       // 2. 获取React内部追踪的属性键（兼容React 16+）
+       const reactPropsKey = Object.keys(targetInput).find(key => 
+           key.startsWith('__reactProps') || key.startsWith('__reactEventHandlers')
+       );
+
+       if (!reactPropsKey) {
+           console.error('无法获取React内部属性，可能使用了不兼容的React版本');
+           return;
+       }
+
+       // 3. 直接修改底层DOM值
+       targetInput.value = value;
+
+       // 4. 触发完整的合成事件（关键步骤）
+       const eventHandlers = targetInput[reactPropsKey];
+       
+       // 同时触发onChange和onInput事件（模拟用户输入）
+       ['onChange', 'onInput'].forEach(eventName => {
+           const handler = eventHandlers[eventName];
+           if (typeof handler === 'function') {
+               const syntheticEvent = createSyntheticEvent({
+                   target: targetInput,
+                   currentTarget: targetInput
+               }, targetInput);
+               handler(syntheticEvent);
+           }
+       });
+
+       // 5. 触发blur事件确保值提交
+       targetInput.blur();
+
+       // 创建模拟的React合成事件
+       function createSyntheticEvent(nativeEvent, target) {
+           return {
+               ...nativeEvent,
+               nativeEvent,
+               currentTarget: target,
+               target,
+               preventDefault: () => nativeEvent.preventDefault(),
+               isDefaultPrevented: () => false,
+               stopPropagation: () => nativeEvent.stopPropagation(),
+               isPropagationStopped: () => false,
+           };
+       }
+   }
    function buy_in() {
        var qty = Math.floor(fund_remain * 0.95 / cur_price)
-       const tradeData = {
-           symbol: cur_stock_symbol,
-           type: "limit",
-           qty: qty,
-           side: "buy",
-           price: cur_price,
-           outside_rth: true,
-           outside_rth_tp: false,
-           expiration: 1754834810
-       };
-       console.log(tradeData)
-
+       console.log(fund_remain, cur_price, qty)
        var buy_side = document.getElementsByClassName('buy-B5GOsH7j')[0]
        buy_side.click()
-       document.querySelector("#absolute-limit-price-field").value = cur_price;
-
-       var qty_dom = document.querySelector("#quantity-field")
-       // qty_dom.value = String(qty);
-       setInputValueWithEvents(qty_dom, qty)
-       
-       // var done_btn = document.getElementsByClassName('button-pP_E6i3F')[0]
-       // done_btn.click()
+       set_value_of_react_dom(
+           document.querySelector("#absolute-limit-price-field"),
+           cur_price
+       )
+       set_value_of_react_dom(
+           document.querySelector("#quantity-field"),
+           qty
+       )
+       var done_btn = document.getElementsByClassName('button-pP_E6i3F')[0]
+       done_btn.click()
+       stock_num = qty
    }
-
+   function sell_half() {
+       var buy_side = document.getElementsByClassName('sell-B5GOsH7j')[0]
+       buy_side.click()
+       set_value_of_react_dom(
+           document.querySelector("#absolute-limit-price-field"),
+           cur_price
+       )
+       set_value_of_react_dom(
+           document.querySelector("#quantity-field"),
+           stock_num / 2
+       )
+       var done_btn = document.getElementsByClassName('button-pP_E6i3F')[0]
+       done_btn.click()
+   }
+   function sell_all() {
+       var buy_side = document.getElementsByClassName('sell-B5GOsH7j')[0]
+       buy_side.click()
+       set_value_of_react_dom(
+           document.querySelector("#absolute-limit-price-field"),
+           cur_price
+       )
+       set_value_of_react_dom(
+           document.querySelector("#quantity-field"),
+           stock_num
+       )
+       var done_btn = document.getElementsByClassName('button-pP_E6i3F')[0]
+       done_btn.click()
+   }
    // 添加按钮组样式
    GM_addStyle(`
        #draggable-btn-group {
@@ -191,6 +219,9 @@ function vision_btn(btn) {
            right: 0;
            height: 15px;
            cursor: move;
+       }
+       .is_new_stock {
+           background: linear-gradient(to bottom, rgba(0,128,0,0.5), rgba(0,128,0,0)) !important;
        }
    `);
 
@@ -270,6 +301,11 @@ function vision_btn(btn) {
        fetchStockNews(code).then(res => {
            const parentElement = document.querySelector('[data-rowkey="' + code + '"]');
 
+           if (res.is_new_stock) {
+               parentElement.classList.add('is_new_stock');
+           } else {
+               parentElement.classList.remove('is_new_stock');
+           }
            const news_datas = parentElement.getElementsByClassName('news_data');
            if(news_datas.length == 0) {
                const dateCell = document.createElement('td');
@@ -334,7 +370,9 @@ function vision_btn(btn) {
    function parseMessageFrame(frame) {
        try {
            const data = JSON.parse(frame);
-           
+           if (data.m == 'create_pointset') {
+               console.log(data.p)
+           }
            // 只处理qsd消息
            if (data.m !== 'qsd') return null;
            
@@ -394,7 +432,7 @@ function vision_btn(btn) {
                                }
                            }
                        } catch (e) {
-                           console.log(`解析错误: ${e.message}`);
+                           // console.log(`解析错误: ${e.message}`);
                        }
                    });
                } catch (e) {
