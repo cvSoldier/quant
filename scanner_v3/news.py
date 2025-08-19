@@ -82,10 +82,12 @@ def get_news(stock_code):
         news_cache = news_cache_dict[stock_code]
         if news_cache['visit_times'] < CACHE_DISABLE_TIMES:
             news_cache['visit_times'] = news_cache['visit_times'] + 1
-            print('using cache')
             return news_cache['news']
     else:
         is_new_stock = True
+        import os
+        # 仅Mac系统
+        os.system('afplay /Users/wyc/CODE/quant/scanner_v3/notify.mp3')
 
     url = f"https://www.stocktitan.net/news/{stock_code}/"
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
@@ -121,7 +123,6 @@ def get_news(stock_code):
             'visit_times': 0,
             'news': news_data
         }
-        print('refresh cache')
         return news_data
 
     except requests.exceptions.RequestException as e:
